@@ -1,6 +1,6 @@
 [] - react.router
 
-# ReactJS Calculator
+# ReactJS Website
 
 ## View project
 
