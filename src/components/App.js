@@ -1,41 +1,38 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "../styles/App.css";
-import A from "./A.js";
-import B from "./B.js";
-import C from "./C.js";
+import Home from "./Home.js";
+import About from "./About.js";
+import Contact from "./Contact.js";
 
 class App extends React.Component {
   render() {
     return (
       <Router>
-        <div>
-          <h2>Welcome to React Router Tutorial</h2>
+        <div className="text-center">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <ul className="navbar-nav mr-auto">
               <li>
                 <Link to={"/"} className="nav-link">
-                  {" "}
-                  A component
+                  Home
                 </Link>
               </li>
               <li>
-                <Link to={"/b"} className="nav-link">
-                  B component
+                <Link to={"/about"} className="nav-link">
+                  About
                 </Link>
               </li>
               <li>
-                <Link to={"/c"} className="nav-link">
-                  C component
+                <Link to={"/contact"} className="nav-link">
+                  Contact
                 </Link>
               </li>
             </ul>
           </nav>
-          <hr />
           <Switch>
-            <Route exact path="/" component={A} />
-            <Route path="/b" component={B} />
-            <Route path="/c" component={C} />
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
           </Switch>
         </div>
       </Router>
