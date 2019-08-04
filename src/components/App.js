@@ -4,6 +4,7 @@ import "../styles/App.css";
 import Home from "./Home.js";
 import About from "./About.js";
 import Contact from "./Contact.js";
+import NotFound from "./NotFound";
 
 class App extends React.Component {
   render() {
@@ -33,6 +34,7 @@ class App extends React.Component {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
+            <Route component={NotFound} />
           </Switch>
         </div>
       </Router>
