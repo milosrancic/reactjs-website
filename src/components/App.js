@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "../styles/App.css";
+
 import Home from "./Home.js";
 import About from "./About.js";
 import Contact from "./Contact.js";
@@ -11,7 +12,7 @@ class App extends React.Component {
     return (
       <Router>
         <div className="text-center">
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <nav className="navbar navbar-expand-lg navbar-light ">
             <ul className="navbar-nav mr-auto">
               <li>
                 <Link to={"/"} className="nav-link">

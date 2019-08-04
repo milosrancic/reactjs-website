@@ -1,5 +1,5 @@
 import React from "react";
 
-const NotFound = () => <h5>The page you requested was not found.</h5>;
+const NotFound = () => <h6>The page you have requested was not found.</h6>;
 
 export default NotFound;
