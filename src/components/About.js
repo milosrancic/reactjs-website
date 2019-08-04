@@ -1,9 +1,10 @@
 import React from "react";
+import "../styles/About.css";
 
 const About = () => {
   return (
-    <div className="container">
-      <p className="text-left">About</p>
+    <div id="about" className="container">
+      {/* <p className="text-left">About</p> */}
       <p className="text-justify">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque odio
         eius ducimus tenetur esse a! Aspernatur ipsam sapiente modi magnam

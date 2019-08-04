@@ -1,9 +1,10 @@
 import React from "react";
+import "../styles/Contact.css";
 
 const Contact = () => {
   return (
-    <div className="container">
-      <p className="text-left">Contact</p>
+    <div id="contact" className="container">
+      {/* <p className="text-left">Contact</p> */}
       <p className="text-justify">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo laborum
         qui, velit, cumque, ea numquam possimus quos saepe corrupti consectetur
