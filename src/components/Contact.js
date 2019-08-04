@@ -8,37 +8,51 @@ const Contact = () => {
       <h3>Contact us</h3>
       <form>
         <div className="form-group">
-          <label htmlFor="exampleInputEmail1">Full Name</label>
+          <label htmlFor="fullName">Full Name*</label>
           <input
             type="text"
             className="form-control"
             id="fullName"
             aria-describedby="fullName"
-            placeholder="Enter your name"
+            placeholder="Enter Your Name"
           />
-          <small id="emailHelp" className="form-text text-muted">
-            We'll never share your email with anyone else.
-          </small>
         </div>
         <div className="form-group">
-          <label htmlFor="exampleInputPassword1">Password</label>
-          <input
-            type="password"
-            className="form-control"
-            id="exampleInputPassword1"
-            placeholder="Password"
-          />
+          <div className="row">
+            <div className="col">
+              <label htmlFor="email">Email*</label>
+              <input
+                type="text"
+                className="form-control"
+                id="email"
+                placeholder="Enter Your Email"
+              />
+            </div>
+            <div className="col">
+              <label htmlFor="phone">Phone</label>
+              <input
+                type="number"
+                className="form-control"
+                id="number"
+                placeholder="Enter Your Phone Number"
+              />
+            </div>
+          </div>
         </div>
-        <div className="form-check">
-          <input
-            type="checkbox"
-            className="form-check-input"
-            id="exampleCheck1"
-          />
-          <label className="form-check-label" htmlFor="exampleCheck1">
-            Check me out
-          </label>
-        </div>
+
+        <label className="my-1 mr-2" htmlFor="inlineFormCustomSelectPref">
+          Needed Services*
+        </label>
+        <select
+          className="custom-select my-1 mr-sm-2"
+          id="inlineFormCustomSelectPref"
+        >
+          <option defaultValue>Choose...</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+
         <button type="submit" className="btn btn-primary">
           Submit
         </button>
