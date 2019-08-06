@@ -1,5 +1,3 @@
-[] - react.router
-
 # ReactJS Website
 
 ## View project
