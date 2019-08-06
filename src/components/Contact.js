@@ -8,10 +8,12 @@ const Contact = () => {
       <h3>Contact us</h3>
       <form>
         <div className="form-group">
-          <label htmlFor="fullName">Full Name*</label>
+          <label htmlFor="fullName" className="float-left ml-2">
+            Full Name*
+          </label>
           <input
             type="text"
-            className="form-control"
+            className="form-control p-4"
             id="fullName"
             aria-describedby="fullName"
             placeholder="Enter Your Name"
@@ -20,19 +22,23 @@ const Contact = () => {
         <div className="form-group">
           <div className="row">
             <div className="col">
-              <label htmlFor="email">Email*</label>
+              <label htmlFor="email" className="float-left ml-2">
+                Email*
+              </label>
               <input
                 type="text"
-                className="form-control"
+                className="form-control p-4"
                 id="email"
                 placeholder="Enter Your Email"
               />
             </div>
             <div className="col">
-              <label htmlFor="phone">Phone</label>
+              <label htmlFor="phone" className="float-left ml-2">
+                Phone
+              </label>
               <input
-                type="number"
-                className="form-control"
+                type="text"
+                className="form-control p-4"
                 id="number"
                 placeholder="Enter Your Phone Number"
               />
@@ -40,18 +46,38 @@ const Contact = () => {
           </div>
         </div>
 
-        <label className="my-1 mr-2" htmlFor="inlineFormCustomSelectPref">
-          Needed Services*
-        </label>
-        <select
-          className="custom-select my-1 mr-sm-2"
-          id="inlineFormCustomSelectPref"
-        >
-          <option defaultValue>Choose...</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
-        </select>
+        <div className="form-group">
+          <label
+            className="my-1 mr-2 float-left ml-2"
+            htmlFor="inlineFormCustomSelectPref"
+          >
+            Needed Services*
+          </label>
+          <select
+            className="custom-select my-1 mr-sm-2"
+            id="inlineFormCustomSelectPref"
+          >
+            <option defaultValue>Choose...</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </div>
+
+        <div className="form-group">
+          <label
+            htmlFor="exampleFormControlTextarea1"
+            className="float-left ml-2"
+          >
+            Message
+          </label>
+          <textarea
+            className="form-control p-3"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Your message here..."
+          />
+        </div>
 
         <button type="submit" className="btn btn-primary">
           Submit
