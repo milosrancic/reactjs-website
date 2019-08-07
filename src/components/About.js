@@ -5,6 +5,7 @@ const About = () => {
   return (
     <div id="about" className="container">
       {/* <p className="text-left">About</p> */}
+      <h3>About</h3>
       <p className="text-justify">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque odio
         eius ducimus tenetur esse a! Aspernatur ipsam sapiente modi magnam
