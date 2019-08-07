@@ -1,3 +1,7 @@
+[] - landing page is full sized photo, edge to edge
+
+[] - navbar is in the middle
+
 # ReactJS Website
 
 ## View project
