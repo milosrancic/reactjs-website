@@ -9,3 +9,5 @@
 [] - maybe create separate component for navbar
 
 [] - inspiration -> https://pcparch.com/
+
+[] - finish editing footer text
