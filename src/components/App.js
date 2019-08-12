@@ -11,33 +11,29 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className="text-center">
-          <nav className="navbar navbar-expand-lg navbar-light ">
-            <ul className="navbar-nav mr-auto">
-              <li>
-                <Link to={"/"} className="nav-link">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link to={"/about"} className="nav-link">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link to={"/contact"} className="nav-link">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </nav>
+        <ul className="nav justify-content-center">
+          <li className="nav-item">
+            <Link to={"/"} className="nav-link">
+              Home
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to={"/about"} className="nav-link">
+              About
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to={"/contact"} className="nav-link">
+              Contact
+            </Link>
+          </li>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route component={NotFound} />
           </Switch>
-        </div>
+        </ul>
       </Router>
     );
   }
