@@ -6,6 +6,7 @@ import Home from "./Home.js";
 import About from "./About.js";
 import Contact from "./Contact.js";
 import NotFound from "./NotFound";
+import Footer from "./Footer";
 
 class App extends React.Component {
   render() {
@@ -34,6 +35,7 @@ class App extends React.Component {
             <Route component={NotFound} />
           </Switch>
         </ul>
+        <Footer />
       </Router>
     );
   }
