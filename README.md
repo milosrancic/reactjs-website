@@ -1,3 +1,9 @@
+[] - this is booking website
+
+[] - page where user can book, select dates, etc.
+
+[] - carousel with images on landing page
+
 [] - landing page is full sized photo, edge to edge
 
 [x] - navbar is in the middle
