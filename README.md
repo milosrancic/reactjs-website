@@ -16,9 +16,11 @@
 
 [x] - bottom of the page is newsletter span with underline\_\_\_ and submit btn
 
+[] - react router path https://programmingwithmosh.com/react/react-router-add-the-power-of-navigation/
+
 [] - maybe create separate component for navbar
 
-[] - inspiration -> https://pcparch.com/
+[] - inspiration -> https://pcparch.com/ https://www.kimoestate.com/
 
 [] - finish editing footer text
 
