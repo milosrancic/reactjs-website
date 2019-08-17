@@ -2,6 +2,8 @@
 
 [] - page where user can book, select dates, etc.
 
+[] - datepicker -> https://www.npmjs.com/package/react-dates
+
 [] - carousel with images on landing page
 
 [] - landing page is full sized photo, edge to edge
