@@ -1,5 +1,6 @@
 #footer .btn-sm {
   padding: 3px;
   letter-spacing: 1px;
-  border: none;
+  /* border: none; */
+  font-size: 12px;
 }
