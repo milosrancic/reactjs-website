@@ -5,6 +5,7 @@ import "../styles/App.css";
 import Home from "./Home.js";
 import About from "./About.js";
 import Contact from "./Contact.js";
+import Book from "./Book.js";
 import NotFound from "./NotFound";
 import Footer from "./Footer";
 
@@ -24,6 +25,11 @@ class App extends React.Component {
             </Link>
           </li>
           <li className="nav-item">
+            <Link to={"/book"} className="nav-link">
+              Book
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link to={"/contact"} className="nav-link">
               Contact
             </Link>
@@ -31,6 +37,7 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
+            <Route path="/book" component={Book} />
             <Route path="/contact" component={Contact} />
             <Route component={NotFound} />
           </Switch>
