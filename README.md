@@ -24,8 +24,6 @@ this is booking website
 
 [] - finish editing footer text (my github account w icon)
 
-[x] - edit newsletter part of the footer, make it input type=text
-
 [] - navbar -> on the right: Sign in & create account
 
 [] - navbar -> on the left: hotels + homes, flights, airtport transfer, what to do, today's deals
