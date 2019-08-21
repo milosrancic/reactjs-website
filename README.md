@@ -14,8 +14,6 @@ this is booking website
 
 [] - when screen is scrolled, navbar changes bg color
 
-[x] - bottom of the page is newsletter span with underline\_\_\_ and submit btn
-
 [] - react router path https://programmingwithmosh.com/react/react-router-add-the-power-of-navigation/
 
 [] - maybe create separate component for navbar
