@@ -4,3 +4,12 @@
   /* border: none; */
   font-size: 12px;
 }
+
+.text-newsletter {
+  letter-spacing: 1px;
+}
+
+.input-newsletter {
+  border-radius: 5px;
+  outline: none;
+}
