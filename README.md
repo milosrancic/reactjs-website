@@ -1,4 +1,4 @@
-[] - this is booking website
+this is booking website
 
 [] - page where user can book, select dates, etc.
 
