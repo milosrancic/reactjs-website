@@ -22,9 +22,9 @@ this is booking website
 
 [] - inspiration -> https://pcparch.com/ https://www.kimoestate.com/
 
-[] - finish editing footer text
+[] - finish editing footer text (my github account w icon)
 
-[] - edit newsletter part of the footer, make it input type=text
+[x] - edit newsletter part of the footer, make it input type=text
 
 [] - navbar -> on the right: Sign in & create account
 
