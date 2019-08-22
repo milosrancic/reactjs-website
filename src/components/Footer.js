@@ -13,7 +13,16 @@ const Footer = () => {
         </button>
 
         <p className="float-right">
-          <small>by: Milos Rancic</small>
+          <small>
+            by: Milos Rancic{" "}
+            <a
+              href="https://github.com/milosrancic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-github" />
+            </a>
+          </small>
         </p>
       </div>
     </div>
