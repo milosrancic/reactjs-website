@@ -4,9 +4,11 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "react": "^16.8.6",
+    "moment": "^2.24.0",
+    "react": "^16.9.0",
     "react-calendar": "^2.19.1",
-    "react-dom": "^16.8.6",
+    "react-dates": "^20.3.0",
+    "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },

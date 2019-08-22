@@ -7,8 +7,9 @@ const Bookings = () => {
     <div id="bookings" className="container">
       <p>Bookings component</p>
       <div className="row">
-        <Calendar />
-        <Calendar />
+        <div className="col">
+          <Calendar maxDate={new Date()} />
+        </div>
       </div>
     </div>
   );

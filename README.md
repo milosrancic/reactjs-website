@@ -10,8 +10,6 @@ this is booking website
 
 [] - finish editing contact page (input paddings)
 
-[x] - navbar is in the middle
-
 [] - when screen is scrolled, navbar changes bg color
 
 [] - react router path https://programmingwithmosh.com/react/react-router-add-the-power-of-navigation/
