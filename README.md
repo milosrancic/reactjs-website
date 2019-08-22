@@ -1,12 +1,8 @@
-this is booking website
-
-[] - page where user can book, select dates, etc.
+this is booking website, user can book, select dates, etc.
 
 [] - datepicker -> https://www.npmjs.com/package/react-dates or https://github.com/wojtekmaj/react-calendar
 
-[] - carousel with images on landing page
-
-[] - landing page is full sized photo, edge to edge
+[] - landing page: either carousel with images on landing page or full sized photo, edge to edge
 
 [] - when screen is scrolled, navbar changes bg color
 
@@ -14,12 +10,12 @@ this is booking website
 
 [] - maybe create separate component for navbar
 
-[] - inspiration -> https://pcparch.com/ https://www.kimoestate.com/
-
-[] - finish editing footer text (my github account w icon)
+[] - inspiration -> https://pcparch.com/ https://www.kimoestate.com/ https://www.agoda.com/#
 
 [] - navbar -> on the right: Sign in & create account
 
 [] - navbar -> on the left: hotels + homes, flights, airtport transfer, what to do, today's deals
+
+[] - gallery with photos that appear as the screen is scrolled
 
 [] - should footer be visible on every page or not?
