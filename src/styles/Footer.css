@@ -13,3 +13,7 @@
   border-radius: 5px;
   outline: none;
 }
+
+.author-text {
+  letter-spacing: 1px;
+}

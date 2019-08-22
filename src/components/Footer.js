@@ -13,7 +13,7 @@ const Footer = () => {
         </button>
 
         <p className="float-right">
-          <small>
+          <small className="author-text">
             by: Milos Rancic{" "}
             <a
               href="https://github.com/milosrancic"
