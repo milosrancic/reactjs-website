@@ -8,8 +8,6 @@ this is booking website
 
 [] - landing page is full sized photo, edge to edge
 
-[] - finish editing contact page (input paddings)
-
 [] - when screen is scrolled, navbar changes bg color
 
 [] - react router path https://programmingwithmosh.com/react/react-router-add-the-power-of-navigation/
@@ -23,3 +21,5 @@ this is booking website
 [] - navbar -> on the right: Sign in & create account
 
 [] - navbar -> on the left: hotels + homes, flights, airtport transfer, what to do, today's deals
+
+[] - should footer be visible on every page or not?
