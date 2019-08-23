@@ -18,4 +18,4 @@ this is booking website, user can book, select dates, etc.
 
 [] - gallery with photos that appear as the screen is scrolled -> https://scotch.io/tutorials/build-an-infinite-scroll-image-gallery-with-react-css-grid-and-unsplash-solution-to-code-challenge-16
 
-[] - should footer be visible on every page or not?
+[] - should footer be visible on every page or not? -> "made by" visible on every page, newsletter only visible on contact page
