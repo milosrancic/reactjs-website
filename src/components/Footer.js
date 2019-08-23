@@ -3,7 +3,7 @@ import "../styles/Footer.css";
 
 const Footer = () => {
   return (
-    <div className=" fixed-bottom container float-left" id="footer">
+    <div className="container fixed-bottom  float-left " id="footer">
       <small className="text-newsletter">
         Newsletter: <input type="text" className="input-newsletter" />
       </small>
