@@ -2,3 +2,8 @@
   margin-top: 30px;
   margin-bottom: 100px;
 }
+
+.card-title {
+  text-align: center;
+  padding: 100px 0;
+}
