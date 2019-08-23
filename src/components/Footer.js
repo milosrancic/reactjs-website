@@ -3,15 +3,17 @@ import "../styles/Footer.css";
 
 const Footer = () => {
   return (
-    <div className="container fixed-bottom  float-left " id="footer">
-      <small className="text-newsletter">
-        Newsletter: <input type="text" className="input-newsletter" />
-      </small>
-      <button type="button" className="ml-1 mt-0 btn btn-sm btn-outline-dark">
-        Submit
-      </button>
+    <div className="container fixed-bottom " id="footer">
+      <div className="float-left">
+        <small className="text-newsletter">
+          Newsletter: <input type="text" className="input-newsletter" />
+        </small>
+        <button type="button" className="ml-1 mt-0 btn btn-sm btn-outline-dark">
+          Submit
+        </button>
+      </div>
 
-      <p className="float-right">
+      <div className="float-right">
         <small className="author-text">
           by: Milos Rancic{" "}
           <a
@@ -22,7 +24,7 @@ const Footer = () => {
             <i className="fab fa-github" />
           </a>
         </small>
-      </p>
+      </div>
     </div>
   );
 };
