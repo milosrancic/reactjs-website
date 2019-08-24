@@ -8,8 +8,6 @@ this is booking website, user can book, select dates, etc.
 
 [] - react router path https://programmingwithmosh.com/react/react-router-add-the-power-of-navigation/
 
-[] - maybe create separate component for navbar
-
 [] - inspiration -> https://pcparch.com/ https://www.kimoestate.com/ https://www.agoda.com/#
 
 [] - navbar -> on the right: Sign in & create account
