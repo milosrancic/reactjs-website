@@ -18,6 +18,7 @@ const Home = () => {
         </div>
       </div>
 
+      {/* rows start here */}
       <div className="row">
         <div className="col">
           <div className="card bg-dark text-white">
@@ -40,6 +41,7 @@ const Home = () => {
         </div>
       </div>
 
+      {/* row start here */}
       <div className="row mt-5">
         <div className="col">
           <div className="card bg-dark text-white">

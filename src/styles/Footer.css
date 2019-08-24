@@ -2,22 +2,6 @@
   background-color: lightblue;
 }
 
-#footer .btn-sm {
-  padding: 3px;
-  letter-spacing: 1px;
-  /* border: none; */
-  font-size: 12px;
-}
-
-.text-newsletter {
-  letter-spacing: 1px;
-}
-
-.input-newsletter {
-  border-radius: 5px;
-  outline: none;
-}
-
 .author-text {
   letter-spacing: 1px;
 }
