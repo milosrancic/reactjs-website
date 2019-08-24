@@ -7,3 +7,18 @@
   text-align: center;
   padding: 100px 0;
 }
+
+.full-img {
+  background: url("../images//full.jpg") no-repeat center center fixed;
+
+  /* Full height */
+  height: 100%;
+  box-sizing: border-box;
+  /* height: 700px; */
+
+  /* background-color: orange; */
+
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
