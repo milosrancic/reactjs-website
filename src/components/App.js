@@ -44,7 +44,16 @@ class App extends React.Component {
             </Switch>
           </ul>
         </Router>
-        {/* <Footer /> */}
+        <div className="text-center">
+          <a
+            className="fixed-bottom"
+            href="https://github.com/milosrancic"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-github" />
+          </a>
+        </div>
       </div>
     );
   }
