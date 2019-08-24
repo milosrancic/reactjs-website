@@ -1,9 +1,12 @@
 import React from "react";
 import "../styles/Home.css";
 
+import accomodation from "../images/accomodation.jpg";
+import weddings from "../images/weddings.jpg";
+
 const Home = () => {
   return (
-    <div id="home" className="container">
+    <div id="home" className="container ">
       {/* <p className="text-left">Home</p> */}
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
@@ -18,13 +21,7 @@ const Home = () => {
       <div className="row">
         <div className="col">
           <div className="card bg-dark text-white">
-            <img
-              src={
-                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATUAAACjCAMAAADciXncAAAAA1BMVEX/ZgAqRcUWAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBrxWIAAQqkhDkAAAAASUVORK5CYII="
-              }
-              className="card-img img-fluid"
-              alt="..."
-            />
+            <img src={accomodation} className="card-img img-fluid" alt="..." />
             <div className="card-img-overlay ">
               <h5 className="card-title text-center align-middle">
                 ACCOMODATION
@@ -35,13 +32,7 @@ const Home = () => {
 
         <div className="col">
           <div className="card bg-dark text-white">
-            <img
-              src={
-                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATUAAACjCAMAAADciXncAAAAA1BMVEX/ZgAqRcUWAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBrxWIAAQqkhDkAAAAASUVORK5CYII="
-              }
-              className="card-img img-fluid"
-              alt="..."
-            />
+            <img src={weddings} className="card-img img-fluid" alt="..." />
             <div className="card-img-overlay">
               <h5 className="card-title">WEDDINGS</h5>
             </div>
@@ -49,7 +40,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="row mt-3">
+      <div className="row mt-5">
         <div className="col">
           <div className="card bg-dark text-white">
             <img
