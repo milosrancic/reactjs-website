@@ -4,7 +4,6 @@ import "../styles/Contact.css";
 const Contact = () => {
   return (
     <div id="contact" className="container">
-      {/* <p classNameName="text-left">Contact</p> */}
       <h3>Contact us</h3>
       <form>
         <div className="form-group">
@@ -83,6 +82,15 @@ const Contact = () => {
           Submit
         </button>
       </form>
+
+      <div className="float-right newsletter-div mt-3">
+        <small className="text-newsletter">
+          Newsletter: <input type="text" className="input-newsletter" />
+        </small>
+        <button type="button" className="ml-1 mt-0 btn btn-sm btn-outline-dark">
+          Submit
+        </button>
+      </div>
     </div>
   );
 };

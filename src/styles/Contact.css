@@ -7,6 +7,24 @@
   border-radius: 15px;
 }
 
+
+.newsletter-div .btn-sm {
+  padding: 3px;
+  letter-spacing: 1px;
+  /* border: none; */
+  font-size: 12px;
+}
+
+.text-newsletter {
+  letter-spacing: 1px;
+}
+
+.input-newsletter {
+  border-radius: 5px;
+  outline: none;
+}
+
+
 /* .custom-select {
   border-radius: 15px;
   padding: 20px;
