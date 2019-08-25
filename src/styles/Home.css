@@ -13,12 +13,6 @@
 
   /* Full height */
   height: 100%;
-  box-sizing: border-box;
-  /* height: 700px; */
-
-  /* background-color: orange; */
-
-  /* background-position: center; */
-  /* background-repeat: no-repeat; */
   background-size: cover;
+  /* height: 640px; */
 }
