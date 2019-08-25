@@ -1,12 +1,11 @@
 import React from "react";
-import full from "../images/full.jpg";
 import "../styles/Home.css";
 
 import accomodation from "../images/accomodation.jpg";
 import weddings from "../images/weddings.jpg";
 
 const Home = () => {
-  return <div className="full-img container-fluid"> s</div>;
+  return <div className="full-img container-fluid"></div>;
   // return {
   //   /* <div id="home" className="container ">
   //     <div className="jumbotron jumbotron-fluid">

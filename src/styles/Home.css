@@ -8,11 +8,12 @@
   padding: 100px 0;
 }
 
+
 .full-img {
   background: url("../images//full.jpg") no-repeat center center fixed;
 
-  /* Full height */
-  height: 100%;
   background-size: cover;
-  /* height: 640px; */
+  height: 650px;
+
+  box-sizing: border-box;
 }
