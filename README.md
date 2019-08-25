@@ -1,6 +1,7 @@
 this is booking website, user can book, select dates, etc.
 
 [] - datepicker -> https://www.npmjs.com/package/react-dates or https://github.com/wojtekmaj/react-calendar
+figure out how to select multiple dates
 
 [] - landing page: either carousel with images on landing page or full sized photo, edge to edge
 
