@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/Home.css";
 
-import accomodation from "../images/accomodation.jpg";
-import weddings from "../images/weddings.jpg";
+// import accomodation from "../images/accomodation.jpg";
+// import weddings from "../images/weddings.jpg";
 
 const Home = () => {
   return <div className="full-img container-fluid"></div>;
