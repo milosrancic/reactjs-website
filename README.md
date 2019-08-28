@@ -1,7 +1,9 @@
 this is booking website, user can book, select dates, etc.
 
-[] - datepicker -> https://www.npmjs.com/package/react-dates or https://github.com/wojtekmaj/react-calendar
-figure out how to select multiple dates
+[] - datepicker -> https://github.com/wojtekmaj/react-calendar
+figure out how to select multiple dates (from-to) ->
+? create state for date in order to have today's date selected by default;
+if it's not possible to select multiple dates, here's a possible workaround for it: check-in is date 1, and check-out is date 2. Next, catch those 2 dates in function and add dates between 1 and 2 and then return text "you're booking for x number of days"
 
 [] - landing page: either carousel with images on landing page or full sized photo, edge to edge
 
