@@ -8,16 +8,32 @@ const Bookings = () => {
       <div className="row">
         <div className="col">
           <p>Check-in</p>
-          <Calendar maxDate={new Date()} />
+          <Calendar />
         </div>
 
         <div className="col">
           <p>Check-out</p>
-          <Calendar maxDate={new Date()} />
+          <Calendar />
         </div>
       </div>
     </div>
   );
 };
+
+// class Bookings extends React.Component {
+//   state = {
+//     date: new Date()
+//   };
+
+//   onChange = date => this.setState({ date });
+
+//   render() {
+//     return (
+//       <div className="container">
+//         <Calendar onChange={this.onChange} value={this.state.date} />
+//       </div>
+//     );
+//   }
+// }
 
 export default Bookings;
