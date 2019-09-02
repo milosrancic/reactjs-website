@@ -4,9 +4,10 @@ body {
 
   max-width: 1300px;
   margin: 0 auto;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 
+  text-align: justify;
 
   /* double check this one */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
