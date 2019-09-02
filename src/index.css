@@ -1,8 +1,12 @@
 body {
   height: 100%;
-  padding: 0;
+  /* padding: 0; */
 
   max-width: 1300px;
   margin: 0 auto;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+
+
+  /* double check this one */
+  overflow: hidden;
 }
