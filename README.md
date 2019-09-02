@@ -6,6 +6,7 @@ figure out how to select multiple dates (from-to) ->
 if it's not possible to select multiple dates, here's a possible workaround for it: check-in is date 1, and check-out is date 2. Next, catch those 2 dates in function and add dates between 1 and 2 and then return text "you're booking for x number of days"
 
 [] - landing page: either carousel with images on landing page or full sized photo, edge to edge
+most popular destinations: bootstrap cards with couple of different locations/photos
 
 [] - when screen is scrolled, navbar changes bg color
 
