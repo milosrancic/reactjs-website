@@ -3,10 +3,14 @@
   margin-bottom: 100px;
 }
 
-.card-title {
+.row-home {
+  margin-top: 300px;
+}
+
+/* .card-title {
   text-align: center;
   padding: 100px 0;
-}
+} */
 
 
 .full-img {
