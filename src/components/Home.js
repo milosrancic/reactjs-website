@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 
+// images
 import accomodation from "../images/accomodation.jpg";
 import weddings from "../images/weddings.jpg";
 
