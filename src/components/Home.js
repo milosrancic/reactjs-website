@@ -9,7 +9,6 @@ const Home = () => {
   return (
     <div>
       <div className="container text-center" id="home">
-        <h3>Most popular destinations</h3>
         <div className="row row-home">
           <div className="col">
             <div className="card">
