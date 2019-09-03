@@ -8,14 +8,15 @@ const Contact = () => {
       <form>
         <div className="form-group">
           <label htmlFor="fullName" className="float-left ml-2">
-            Full Name*
+            Name*
           </label>
           <input
             type="text"
-            className="form-control p-4"
+            className="form-control p-4 require"
             id="fullName"
             aria-describedby="fullName"
-            placeholder="Enter Your Name"
+            placeholder="Add Your Name"
+            required
           />
         </div>
         <div className="form-group">
@@ -25,10 +26,11 @@ const Contact = () => {
                 Email*
               </label>
               <input
-                type="text"
+                type="email"
                 className="form-control p-4"
                 id="email"
-                placeholder="Enter Your Email"
+                placeholder="Add Your Email"
+                required
               />
             </div>
             <div className="col">
@@ -39,28 +41,22 @@ const Contact = () => {
                 type="text"
                 className="form-control p-4"
                 id="number"
-                placeholder="Enter Your Phone Number"
+                placeholder="Add Your Phone Number"
               />
             </div>
           </div>
         </div>
 
         <div className="form-group">
-          <label
-            className="my-1 mr-2 float-left ml-2"
-            htmlFor="inlineFormCustomSelectPref"
-          >
-            Needed Services*
+          <label htmlFor="subject" className="float-left ml-2">
+            Subject
           </label>
-          <select
-            className="custom-select my-1 mr-sm-2"
-            id="inlineFormCustomSelectPref"
-          >
-            <option defaultValue>Choose...</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </select>
+          <input
+            type="text"
+            className="form-control p-4"
+            id="subject"
+            placeholder="Add subject"
+          />
         </div>
 
         <div className="form-group">
@@ -68,13 +64,14 @@ const Contact = () => {
             htmlFor="exampleFormControlTextarea1"
             className="float-left ml-2"
           >
-            Message
+            Message*
           </label>
           <textarea
             className="form-control p-3"
             id="exampleFormControlTextarea1"
-            rows="3"
+            rows="4"
             placeholder="Your message here..."
+            required
           />
         </div>
 

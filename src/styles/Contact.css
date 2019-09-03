@@ -24,12 +24,6 @@
   outline: none;
 }
 
-
-/* .custom-select {
-  border-radius: 15px;
-  padding: 20px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  font-size: 1em;
-} */
+textarea {
+  resize: none;
+}
