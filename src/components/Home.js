@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <div className="container text-center" id="home">
-        <div className="row row-home">
+        <div className="row mt-5">
           <div className="col">
             <div className="card">
               <img
@@ -40,10 +40,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="container">
-        <div className="row">
+        <div className="row mt-5">
           <div className="col">
             <div className="card bg-dark text-white">
               <img
@@ -64,34 +62,6 @@ const Home = () => {
             <div className="card bg-dark text-white">
               <img
                 src={accomodation}
-                className="card-img img-fluid"
-                alt="..."
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="container">
-        <div className="row mt-5">
-          <div className="col">
-            <div className="card bg-dark text-white">
-              <img
-                src={
-                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATUAAACjCAMAAADciXncAAAAA1BMVEX/ZgAqRcUWAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBrxWIAAQqkhDkAAAAASUVORK5CYII="
-                }
-                className="card-img img-fluid"
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div className="col">
-            <div className="card bg-dark text-white">
-              <img
-                src={
-                  "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATUAAACjCAMAAADciXncAAAAA1BMVEX/ZgAqRcUWAAAAR0lEQVR4nO3BAQ0AAADCoPdPbQ8HFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPBrxWIAAQqkhDkAAAAASUVORK5CYII="
-                }
                 className="card-img img-fluid"
                 alt="..."
               />
