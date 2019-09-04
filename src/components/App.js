@@ -51,9 +51,8 @@ class App extends React.Component {
             </Switch>
           </ul>
         </Router>
-        <div className="text-center">
+        <div className="text-center gh-icon">
           <a
-            className="fixed-bottom"
             href="https://github.com/milosrancic"
             target="_blank"
             rel="noopener noreferrer"
@@ -67,3 +66,6 @@ class App extends React.Component {
 }
 
 export default App;
+{
+  /* className="fixed-bottom" */
+}
