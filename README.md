@@ -14,10 +14,6 @@ most popular destinations: bootstrap cards with couple of different locations/ph
 
 [] - inspiration -> https://pcparch.com/ https://www.kimoestate.com/ https://www.agoda.com/#
 
-[] - navbar -> on the right: Sign in & create account
-
-[] - navbar -> on the left: hotels + homes, flights, airtport transfer, what to do, today's deals
-
-[] - gallery with photos that appear as the screen is scrolled -> https://scotch.io/tutorials/build-an-infinite-scroll-image-gallery-with-react-css-grid-and-unsplash-solution-to-code-challenge-16
+[] - infinite scroll gallery with photos that appear as the screen is scrolled -> https://scotch.io/tutorials/build-an-infinite-scroll-image-gallery-with-react-css-grid-and-unsplash-solution-to-code-challenge-16
 
 [] - alert("Thanks for contacting us, we'll get back to you.") that is run when form is sumbitted
