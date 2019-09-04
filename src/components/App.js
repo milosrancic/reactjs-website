@@ -4,6 +4,7 @@ import "../styles/App.css";
 
 import Home from "./Home.js";
 import About from "./About.js";
+import Gallery from "./Gallery.js";
 import Contact from "./Contact.js";
 import Bookings from "./Bookings.js";
 import NotFound from "./NotFound";
@@ -26,6 +27,11 @@ class App extends React.Component {
               </Link>
             </li>
             <li className="nav-item">
+              <Link to={"/gallery"} className="nav-link">
+                Gallery
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link to={"/bookings"} className="nav-link">
                 Bookings
               </Link>
@@ -38,6 +44,7 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
+              <Route path="/gallery" component={Gallery} />
               <Route path="/bookings" component={Bookings} />
               <Route path="/contact" component={Contact} />
               <Route component={NotFound} />
