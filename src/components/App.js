@@ -51,7 +51,7 @@ class App extends React.Component {
             </Switch>
           </ul>
         </Router>
-        <div className="text-center gh-icon">
+        {/* <div className="text-center gh-icon">
           <a
             href="https://github.com/milosrancic"
             target="_blank"
@@ -59,7 +59,7 @@ class App extends React.Component {
           >
             <i className="fab fa-github" />
           </a>
-        </div>
+        </div> */}
       </div>
     );
   }
