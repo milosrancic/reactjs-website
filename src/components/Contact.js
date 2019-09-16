@@ -1,11 +1,16 @@
 import React from "react";
 import "../styles/Contact.css";
 
+const handleSubmit = event => {
+  event.preventDefault();
+  alert("Thank you for reaching out to us. We will get back to you shortly.");
+};
+
 const Contact = () => {
   return (
     <div id="contact" className="container">
       <h3>Contact us</h3>
-      <form>
+      <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="fullName" className="float-left ml-2">
             Name*
