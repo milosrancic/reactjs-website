@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import "../styles/App.css";
-// import Footer from "./Footer";
 
 import Home from "./Home.js";
 import About from "./About.js";
@@ -10,7 +9,7 @@ import Gallery from "./Gallery.js";
 import Contact from "./Contact.js";
 import Bookings from "./Bookings.js";
 import NotFound from "./NotFound";
-// import Footer from "./Footer";
+import Footer from "./Footer";
 
 class App extends React.Component {
   render() {
@@ -53,6 +52,8 @@ class App extends React.Component {
             </Switch>
           </ul>
         </Router>
+
+        <Footer />
         {/* <div className="text-center gh-icon">
           <a
             href="https://github.com/milosrancic"

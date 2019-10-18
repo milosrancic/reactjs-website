@@ -5,3 +5,9 @@
 .author-text {
   letter-spacing: 1px;
 } */
+
+#footer {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
