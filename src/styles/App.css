@@ -4,7 +4,6 @@
   padding-bottom: 2.5rem
 }
 
-.gh-icon {
-  /* position: fixed; */
-  bottom: 0px;
+.nav-link {
+  padding: 0.7rem;
 }
