@@ -14,7 +14,7 @@ import Footer from "./Footer";
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div id="app">
         <Router>
           <ul className="nav justify-content-center">
             <li className="nav-item">
@@ -52,23 +52,10 @@ class App extends React.Component {
             </Switch>
           </ul>
         </Router>
-
         <Footer />
-        {/* <div className="text-center gh-icon">
-          <a
-            href="https://github.com/milosrancic"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fab fa-github" />
-          </a>
-        </div> */}
       </div>
     );
   }
 }
 
 export default App;
-{
-  /* className="fixed-bottom" */
-}
