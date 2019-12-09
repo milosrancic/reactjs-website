@@ -8,7 +8,7 @@ import "../styles/Home.scss";
 const Home = () => {
   return (
     <div>
-      <div className="container" id="home">
+      <div id="home">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex enim
           autem modi dolor maiores ea itaque distinctio consectetur numquam

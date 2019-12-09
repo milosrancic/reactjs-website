@@ -3,7 +3,7 @@ import "../styles/Accomodation.css";
 
 const Accomodation = () => {
   return (
-    <div id="accomodation" className="container">
+    <div id="accomodation">
       {/* <p className="text-left">About</p> */}
       <h3>Accomodation</h3>
       <p className="text-justify">

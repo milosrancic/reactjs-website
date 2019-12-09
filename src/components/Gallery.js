@@ -3,7 +3,7 @@ import "../styles/Gallery.css";
 
 const Gallery = () => {
   return (
-    <div className="container">
+    <div>
       <h3>gallery component</h3>
       <p>infinite scroll photo gallery from unsplash</p>
     </div>
