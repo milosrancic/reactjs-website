@@ -16,41 +16,43 @@ class App extends React.Component {
     return (
       <div id="app" className="container">
         <Router>
-          <ul className="nav justify-content-center">
-            <li className="nav-item">
-              <Link to={"/"} className="nav-link">
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to={"/accomodation"} className="nav-link">
-                Accomodation
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to={"/gallery"} className="nav-link">
-                Gallery
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to={"/bookings"} className="nav-link">
-                Bookings
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to={"/contact"} className="nav-link">
-                Contact
-              </Link>
-            </li>
-            <Switch>
-              <Route exact path="/" component={Home} />
-              <Route path="/accomodation" component={Accomodation} />
-              <Route path="/gallery" component={Gallery} />
-              <Route path="/bookings" component={Bookings} />
-              <Route path="/contact" component={Contact} />
-              <Route component={NotFound} />
-            </Switch>
-          </ul>
+          <nav>
+            <ul className="nav justify-content-center">
+              <li className="nav-item">
+                <Link to={"/"} className="nav-link">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to={"/accomodation"} className="nav-link">
+                  Accomodation
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to={"/gallery"} className="nav-link">
+                  Gallery
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to={"/bookings"} className="nav-link">
+                  Bookings
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to={"/contact"} className="nav-link">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </nav>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/accomodation" component={Accomodation} />
+            <Route path="/gallery" component={Gallery} />
+            <Route path="/bookings" component={Bookings} />
+            <Route path="/contact" component={Contact} />
+            <Route component={NotFound} />
+          </Switch>
         </Router>
         <Footer />
       </div>
