@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/About.css";
+import "../styles/Accomodation.css";
 
-const About = () => {
+const Accomodation = () => {
   return (
     <div id="about" className="container">
       {/* <p className="text-left">About</p> */}
@@ -75,4 +75,4 @@ const About = () => {
     </div>
   );
 };
-export default About;
+export default Accomodation;
