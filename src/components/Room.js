@@ -1,4 +1,6 @@
 import React from "react";
+
+import MoreInfo from "./MoreInfo";
 import "../styles/Room.css";
 
 // CREATE ONE COMPONENT AND THEN RERENDER IT 5 TIMES FOR EACH ROOM
@@ -23,6 +25,7 @@ const Room = props => {
             <i class="fas fa-male"> x {props.people}</i>
           </p>
           {props.text}
+          {/* <button>More Info</button> */}
         </div>
       </div>
     </div>
