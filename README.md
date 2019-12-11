@@ -12,7 +12,7 @@ most popular destinations: bootstrap cards with couple of different locations/ph
 
 [] - react router path https://programmingwithmosh.com/react/react-router-add-the-power-of-navigation/
 
-[] - inspiration -> https://pcparch.com/ https://www.kimoestate.com/ https://www.agoda.com/#
+[] - inspiration -> https://pcparch.com/ https://www.kimoestate.com/
 ! this one definitely -> http://listahotell.no/ !
 
 [] - infinite scroll gallery with photos that appear as the screen is scrolled -> https://scotch.io/tutorials/build-an-infinite-scroll-image-gallery-with-react-css-grid-and-unsplash-solution-to-code-challenge-16
