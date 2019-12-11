@@ -1,3 +1,4 @@
-#accomodation {
-  margin-top: 30px;
+#accomodation>.row {
+  align-items: center;
+  border: 1px solid orchid;
 }

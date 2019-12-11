@@ -11,83 +11,78 @@ const Accomodation = () => {
   return (
     <div id="accomodation">
       <h3>Accomodation</h3>
-      <div className="row">
-        <div className="col">
-          <img src={accomodation5} className="img-fluid" alt="" />
-        </div>
-        <div className="col border">
-          <p className="">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-            consequatur temporibus doloremque distinctio pariatur veritatis.
-            Consequuntur qui omnis minus ad tenetur aspernatur corrupti
-            voluptatum quia et asperiores accusamus suscipit exercitationem vero
-            voluptates aliquid, odit quisquam ipsam nostrum provident? Natus hic
-            rerum at beatae dolorem ut qui officia asperiores. Quas, molestiae?
-          </p>
-        </div>
-      </div>
-
-      <div className="row mt-5 border">
-        <div className="col">
+      <div className="row mt-5">
+        <div className="col-md-8">
           <img src={accomodation2} className="img-fluid" alt="" />
         </div>
-        <div className="col ">
-          <p className="">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-            consequatur temporibus doloremque distinctio pariatur veritatis.
-            Consequuntur qui omnis minus ad tenetur aspernatur corrupti
-            voluptatum quia et asperiores accusamus suscipit exercitationem vero
-            voluptates aliquid, odit quisquam ipsam nostrum provident? Natus hic
-            rerum at beatae dolorem ut qui officia asperiores. Quas, molestiae?
-          </p>
+        <div className="col-md-4">
+          <h4>Standard Double Room</h4>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+          consequatur temporibus doloremque distinctio pariatur veritatis.
+          Consequuntur qui omnis minus ad tenetur aspernatur corrupti voluptatum
+          quia et asperiores accusamus suscipit exercitationem vero voluptates
+          aliquid, odit quisquam ipsam nostrum provident? Natus hic rerum at
+          beatae dolorem ut qui officia asperiores. Quas, molestiae?
         </div>
       </div>
 
-      <div className="row mt-5 border">
-        <div className="col">
-          <img src={accomodation3} className="img-fluid" alt="" />
+      <div className="row mt-5">
+        <div className="col-md-8">
+          <img src={accomodation5} className="img-fluid" alt="" />
         </div>
-        <div className="col ">
-          <p className="">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-            consequatur temporibus doloremque distinctio pariatur veritatis.
-            Consequuntur qui omnis minus ad tenetur aspernatur corrupti
-            voluptatum quia et asperiores accusamus suscipit exercitationem vero
-            voluptates aliquid, odit quisquam ipsam nostrum provident? Natus hic
-            rerum at beatae dolorem ut qui officia asperiores. Quas, molestiae?
-          </p>
+        <div className="col-md-4">
+          <h4>Standard Double Room</h4>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+          consequatur temporibus doloremque distinctio pariatur veritatis.
+          Consequuntur qui omnis minus ad tenetur aspernatur corrupti voluptatum
+          quia et asperiores accusamus suscipit exercitationem vero voluptates
+          aliquid, odit quisquam ipsam nostrum provident? Natus hic rerum at
+          beatae dolorem ut qui officia asperiores. Quas, molestiae?
         </div>
       </div>
 
-      <div className="row mt-5 border">
-        <div className="col">
+      <div className="row mt-5">
+        <div className="col-md-8">
           <img src={accomodation4} className="img-fluid" alt="" />
         </div>
-        <div className="col ">
-          <p className="">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-            consequatur temporibus doloremque distinctio pariatur veritatis.
-            Consequuntur qui omnis minus ad tenetur aspernatur corrupti
-            voluptatum quia et asperiores accusamus suscipit exercitationem vero
-            voluptates aliquid, odit quisquam ipsam nostrum provident? Natus hic
-            rerum at beatae dolorem ut qui officia asperiores. Quas, molestiae?
-          </p>
+        <div className="col-md-4">
+          <h4>Standard Suite</h4>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+          consequatur temporibus doloremque distinctio pariatur veritatis.
+          Consequuntur qui omnis minus ad tenetur aspernatur corrupti voluptatum
+          quia et asperiores accusamus suscipit exercitationem vero voluptates
+          aliquid, odit quisquam ipsam nostrum provident? Natus hic rerum at
+          beatae dolorem ut qui officia asperiores. Quas, molestiae?
         </div>
       </div>
 
-      <div className="row mt-5 border">
-        <div className="col">
+      <div className="row mt-5">
+        <div className="col-md-8">
+          <img src={accomodation3} className="img-fluid" alt="" />
+        </div>
+        <div className="col-md-4">
+          <h4>Standard Suite</h4>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+          consequatur temporibus doloremque distinctio pariatur veritatis.
+          Consequuntur qui omnis minus ad tenetur aspernatur corrupti voluptatum
+          quia et asperiores accusamus suscipit exercitationem vero voluptates
+          aliquid, odit quisquam ipsam nostrum provident? Natus hic rerum at
+          beatae dolorem ut qui officia asperiores. Quas, molestiae?
+        </div>
+      </div>
+
+      <div className="row mt-5">
+        <div className="col-md-8">
           <img src={accomodation1} className="img-fluid" alt="" />
         </div>
-        <div className="col ">
-          <p className="">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-            consequatur temporibus doloremque distinctio pariatur veritatis.
-            Consequuntur qui omnis minus ad tenetur aspernatur corrupti
-            voluptatum quia et asperiores accusamus suscipit exercitationem vero
-            voluptates aliquid, odit quisquam ipsam nostrum provident? Natus hic
-            rerum at beatae dolorem ut qui officia asperiores. Quas, molestiae?
-          </p>
+        <div className="col-md-4">
+          <h4>Family Suite</h4>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+          consequatur temporibus doloremque distinctio pariatur veritatis.
+          Consequuntur qui omnis minus ad tenetur aspernatur corrupti voluptatum
+          quia et asperiores accusamus suscipit exercitationem vero voluptates
+          aliquid, odit quisquam ipsam nostrum provident? Natus hic rerum at
+          beatae dolorem ut qui officia asperiores. Quas, molestiae?
         </div>
       </div>
     </div>
