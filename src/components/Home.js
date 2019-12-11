@@ -7,22 +7,20 @@ import "../styles/Home.scss";
 
 const Home = () => {
   return (
-    <div>
-      <div id="home">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex enim
-          autem modi dolor maiores ea itaque distinctio consectetur numquam
-          minus laudantium in illum error impedit nam sed, est ullam. Delectus
-          harum asperiores dolor numquam atque exercitationem optio error,
-          perspiciatis culpa aliquam? Aut vero, dolorum facere ex natus error
-          tempora necessitatibus atque maxime fugit vel amet eligendi nostrum
-          suscipit quidem impedit quasi autem nam voluptate iure pariatur
-          adipisci! Iure soluta, ex laboriosam labore recusandae eligendi quia
-          saepe dignissimos porro ipsum autem magnam sed amet voluptatum ullam
-          in aut aliquid, ipsa sunt, laudantium totam fuga provident. Quisquam
-          exercitationem quam non perspiciatis iure!
-        </p>
-      </div>
+    <div id="home">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex enim autem
+        modi dolor maiores ea itaque distinctio consectetur numquam minus
+        laudantium in illum error impedit nam sed, est ullam. Delectus harum
+        asperiores dolor numquam atque exercitationem optio error, perspiciatis
+        culpa aliquam? Aut vero, dolorum facere ex natus error tempora
+        necessitatibus atque maxime fugit vel amet eligendi nostrum suscipit
+        quidem impedit quasi autem nam voluptate iure pariatur adipisci! Iure
+        soluta, ex laboriosam labore recusandae eligendi quia saepe dignissimos
+        porro ipsum autem magnam sed amet voluptatum ullam in aut aliquid, ipsa
+        sunt, laudantium totam fuga provident. Quisquam exercitationem quam non
+        perspiciatis iure!
+      </p>
     </div>
   );
 };
