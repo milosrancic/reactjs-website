@@ -1,7 +1,11 @@
 import React from "react";
 import "../styles/Accomodation.css";
 
-import accomodation from "../images/accomodation.jpg";
+import accomodation1 from "../images/accomodation-01.jpg";
+import accomodation2 from "../images/accomodation-02.jpg";
+import accomodation3 from "../images/accomodation-03.jpg";
+import accomodation4 from "../images/accomodation-04.jpg";
+import accomodation5 from "../images/accomodation-05.jpg";
 
 const Accomodation = () => {
   return (
@@ -9,7 +13,7 @@ const Accomodation = () => {
       <h3>Accomodation</h3>
       <div className="row">
         <div className="col">
-          <img src={accomodation} className="img-fluid" alt="" />
+          <img src={accomodation5} className="img-fluid" alt="" />
         </div>
         <div className="col border">
           <p className="">
@@ -25,7 +29,7 @@ const Accomodation = () => {
 
       <div className="row mt-5 border">
         <div className="col">
-          <img src={accomodation} className="img-fluid" alt="" />
+          <img src={accomodation2} className="img-fluid" alt="" />
         </div>
         <div className="col ">
           <p className="">
@@ -41,7 +45,7 @@ const Accomodation = () => {
 
       <div className="row mt-5 border">
         <div className="col">
-          <img src={accomodation} className="img-fluid" alt="" />
+          <img src={accomodation3} className="img-fluid" alt="" />
         </div>
         <div className="col ">
           <p className="">
@@ -57,7 +61,7 @@ const Accomodation = () => {
 
       <div className="row mt-5 border">
         <div className="col">
-          <img src={accomodation} className="img-fluid" alt="" />
+          <img src={accomodation4} className="img-fluid" alt="" />
         </div>
         <div className="col ">
           <p className="">
@@ -73,7 +77,7 @@ const Accomodation = () => {
 
       <div className="row mt-5 border">
         <div className="col">
-          <img src={accomodation} className="img-fluid" alt="" />
+          <img src={accomodation1} className="img-fluid" alt="" />
         </div>
         <div className="col ">
           <p className="">
