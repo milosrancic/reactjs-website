@@ -15,9 +15,13 @@ const Room = props => {
         </div>
         <div className="col-md-4">
           <h4>{props.title}</h4>
-          {/* <p>
-            <i class="fas fa-bed"> 1 Twin bed</i>
-          </p> */}
+          <p>{props.subtitle}</p>
+          <p>
+            <i className="fas fa-bed"> {props.beds}</i>
+          </p>
+          <p>
+            <i class="fas fa-male"> x {props.people}</i>
+          </p>
           {props.text}
         </div>
       </div>

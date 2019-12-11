@@ -16,52 +16,67 @@ const Accomodation = () => {
       <h3>Accomodation</h3>
       <Room
         title="Standard Double Room"
+        subtitle="Start from $70/night"
         text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
           consequatur temporibus doloremque distinctio pariatur veritatis.
           Consequuntur qui omnis minus ad tenetur aspernatur corrupti voluptatum
           quia et asperiores accusamus suscipit exercitationem vero voluptates
           aliquid, odit quisquam ipsam nostrum provident? Natus hic rerum at
           beatae dolorem ut qui officia asperiores. Quas, molestiae? "
+        beds="1 Queen Bed"
+        people="2"
         img={accomodation2}
       />
       <Room
         title="Standard Double Room"
+        subtitle="Start from $70/night"
         text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
           consequatur temporibus doloremque distinctio pariatur veritatis.
           Consequuntur qui omnis minus ad tenetur aspernatur corrupti voluptatum
           quia et asperiores accusamus suscipit exercitationem vero voluptates
           aliquid, odit quisquam ipsam nostrum provident? Natus hic rerum at
           beatae dolorem ut qui officia asperiores. Quas, molestiae?"
+        beds="1 Queen Bed"
+        people="2"
         img={accomodation5}
       />
       <Room
         title="Standard Suite"
+        subtitle="Start from $120/night"
         text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
           consequatur temporibus doloremque distinctio pariatur veritatis.
           Consequuntur qui omnis minus ad tenetur aspernatur corrupti voluptatum
           quia et asperiores accusamus suscipit exercitationem vero voluptates
           aliquid, odit quisquam ipsam nostrum provident? Natus hic rerum at
           beatae dolorem ut qui officia asperiores. Quas, molestiae? "
+        beds="1 Queen Bed & 1 Single Bed"
+        people="3"
         img={accomodation4}
       />
       <Room
         title="Standard Suite"
+        subtitle="Start from $120/night"
         text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
           consequatur temporibus doloremque distinctio pariatur veritatis.
           Consequuntur qui omnis minus ad tenetur aspernatur corrupti voluptatum
           quia et asperiores accusamus suscipit exercitationem vero voluptates
           aliquid, odit quisquam ipsam nostrum provident? Natus hic rerum at
           beatae dolorem ut qui officia asperiores. Quas, molestiae? "
+        beds="1 Queen Bed & 2 Single Beds"
+        people="4"
         img={accomodation3}
       />
       <Room
         title="Family Suite"
+        subtitle="Start from $220/night"
         text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
           consequatur temporibus doloremque distinctio pariatur veritatis.
           Consequuntur qui omnis minus ad tenetur aspernatur corrupti voluptatum
           quia et asperiores accusamus suscipit exercitationem vero voluptates
           aliquid, odit quisquam ipsam nostrum provident? Natus hic rerum at
           beatae dolorem ut qui officia asperiores. Quas, molestiae? "
+        beds="2 Queen Beds & 2 Single Beds"
+        people="6"
         img={accomodation1}
       />
       {/* <div className="row mt-5">
