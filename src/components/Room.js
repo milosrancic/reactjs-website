@@ -1,12 +1,13 @@
 import React from "react";
 
-import MoreInfo from "./MoreInfo";
+// import MoreInfo from "./MoreInfo";
 import "../styles/Room.css";
 
-// CREATE ONE COMPONENT AND THEN RERENDER IT 5 TIMES FOR EACH ROOM
-// NO NEED FOR EVERY ROOM TO BE ITS OWN COMPONENT
-
 // each room will have its own "more information" button, and when hovered over it will show more info right there
+
+// array of couple sentences that will be shown randomly by using math.random
+// this will be props at Accomodation component
+// ["Booked 6 times in last 15 days", "Last one avalible for this week"] - like this
 
 const Room = props => {
   return (
@@ -16,16 +17,26 @@ const Room = props => {
           <img src={props.img} className="img-fluid" alt="" />
         </div>
         <div className="col-md-4">
-          <h4>{props.title}</h4>
+          <span>{props.feedback}</span>
+          <h3>{props.title}</h3>
           <p>{props.subtitle}</p>
-          <p>
+          {/* <span className="room-details">
             <i className="fas fa-bed"> {props.beds}</i>
-          </p>
-          <p>
-            <i class="fas fa-male"> x {props.people}</i>
-          </p>
-          {props.text}
-          {/* <button>More Info</button> */}
+          </span>
+          <span className="room-details">
+            <i className="fas fa-male"> x {props.people}</i>
+          </span> */}
+          <ul>
+            <li>
+              <i className="fas fa-bed"></i> {props.beds}
+            </li>
+            <li>
+              <i className="fas fa-male"></i> x {props.people}
+            </li>
+          </ul>
+
+          {/* {props.text} */}
+          <button className="btn btn-outline-secondary">More Info</button>
         </div>
       </div>
     </div>
