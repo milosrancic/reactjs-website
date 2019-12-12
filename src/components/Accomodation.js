@@ -1,6 +1,6 @@
 import React from "react";
 import Room from "./Room";
-// import "../styles/Accomodation.css";
+import "../styles/Accomodation.css";
 
 import accomodation1 from "../images/accomodation-01.jpg";
 import accomodation2 from "../images/accomodation-02.jpg";
@@ -81,6 +81,16 @@ const Accomodation = () => {
         feedback="Guest favorite"
         img={accomodation1}
       />
+      <p>
+        {" "}
+        * <i class="fas fa-wifi"></i> Free WiFi
+        <i class="fas fa-parking"></i> Parking <i class="far fa-clock"></i>
+        24-hour front desk
+        <i class="fas fa-wheelchair"></i> Facilities for disabled guests
+        <i class="fas fa-paw"></i> Pets allowed{" "}
+        <i class="fas fa-concierge-bell"></i>
+        Daily housekeeping
+      </p>
     </div>
   );
 };
