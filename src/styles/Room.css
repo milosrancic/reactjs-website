@@ -2,3 +2,12 @@
   align-items: center;
   border: 1px solid orchid;
 }
+
+#room>.row>.col-md-4 {
+  border: 1px solid orange;
+}
+
+#room>.row>.col-md-8>img {
+  border-radius: 0.8em;
+  border: 2px solid red;
+}
