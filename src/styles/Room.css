@@ -11,3 +11,12 @@
   border-radius: 0.8em;
   border: 2px solid red;
 }
+
+
+.room-details {
+  display: block;
+}
+
+#room>.row>.col-md-4>ul {
+  list-style-type: none;
+}
