@@ -16,6 +16,7 @@
     border: 1px solid orange;
     padding: 50px 30px;
 
+    // fix this for smaller screens
     .feedback {
       position: absolute;
       top: 10px;
@@ -35,7 +36,7 @@
 }
 
 .fas.fa-male {
-  margin-right: 16px;
+  margin: 0 14px 0 5px;
 }
 
 .fas.fa-glass-martini-alt {
@@ -43,7 +44,7 @@
 }
 
 .fas.fa-utensils {
-  margin-right: 8px;
+  margin: 0 7px 0 2px;
 }
 
 .fas.fa-dumbbell {
@@ -51,5 +52,5 @@
 }
 
 .fas.fa-spa {
-  margin-right: 2px;
+  margin: 0 2px 0 1px;
 }

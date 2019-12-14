@@ -1,9 +1,5 @@
 import React from "react";
-
-// import MoreInfo from "./MoreInfo";
 import "../styles/Room.scss";
-
-// each room will have its own "more information" button, and when hovered over it will show more info right there
 
 // array of couple sentences that will be shown randomly by using math.random
 // this will be props at Accomodation component
@@ -25,7 +21,8 @@ const Room = props => {
               <i className="fas fa-bed"></i> {props.beds}
             </li>
             <li>
-              <i className="fas fa-male"></i> x {props.people}
+              <i className="fas fa-male"></i>
+              {props.people}
             </li>
             <li>
               <i className="fas fa-glass-martini-alt"></i>
@@ -42,7 +39,6 @@ const Room = props => {
               <i className="fas fa-spa"></i> {props.spa}
             </li>
           </ul>
-          {/* <button className="btn btn-outline-secondary">More Info</button> */}
         </div>
       </div>
     </div>
