@@ -20,7 +20,7 @@ const Contact = () => {
             className="form-control p-4 require"
             id="fullName"
             aria-describedby="fullName"
-            placeholder="Add Your Name"
+            placeholder="Your Name"
             required
           />
         </div>
@@ -34,7 +34,7 @@ const Contact = () => {
                 type="email"
                 className="form-control p-4"
                 id="email"
-                placeholder="Add Your Email"
+                placeholder="Your Email"
                 required
               />
             </div>
@@ -46,7 +46,7 @@ const Contact = () => {
                 type="text"
                 className="form-control p-4"
                 id="number"
-                placeholder="Add Your Phone Number"
+                placeholder="Your Phone Number"
               />
             </div>
           </div>
@@ -83,16 +83,19 @@ const Contact = () => {
         <button type="submit" className="btn btn-primary">
           Submit
         </button>
-      </form>
 
-      <div className="float-right newsletter-div mt-3">
-        <small className="text-newsletter">
-          Newsletter: <input type="text" className="input-newsletter" />
-        </small>
-        <button type="button" className="ml-1 mt-0 btn btn-sm btn-outline-dark">
-          Submit
-        </button>
-      </div>
+        <div className="float-right newsletter-div mt-3">
+          <small className="text-newsletter">
+            Newsletter: <input type="text" className="input-newsletter" />
+          </small>
+          <button
+            type="button"
+            className="ml-1 mt-0 btn btn-sm btn-outline-dark"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
     </div>
   );
 };
