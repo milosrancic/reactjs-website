@@ -42,7 +42,7 @@ class Bookings extends React.Component {
     // let date2 = this.state.date2;
 
     return (
-      <div id="bookings">
+      <div id="bookings" className="container">
         <div className="row">
           <div className="col">
             <p>Check-in</p>
