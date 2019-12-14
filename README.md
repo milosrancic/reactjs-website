@@ -8,11 +8,13 @@ if it's not possible to select multiple dates, here's a possible workaround for 
 [] - landing page: either carousel with images on landing page or full sized photo, edge to edge
 most popular destinations: bootstrap cards with couple of different locations/photos
 
-[] - when screen is scrolled, navbar changes bg color
-
 [] - react router path https://programmingwithmosh.com/react/react-router-add-the-power-of-navigation/
 
-[] - inspiration -> https://pcparch.com/ https://www.kimoestate.com/
+[] - inspiration -> https://www.kimoestate.com/
 ! this one definitely -> http://listahotell.no/ !
 
 [] - infinite scroll gallery with photos that appear as the screen is scrolled -> https://scotch.io/tutorials/build-an-infinite-scroll-image-gallery-with-react-css-grid-and-unsplash-solution-to-code-challenge-16
+
+[] - all nav links are bright color, when hovered onto one, only that one is bright, others are dark colors
+
+[] - when screen is scrolled, navbar changes bg color
