@@ -33,10 +33,15 @@ const Room = props => {
             <li>
               <i className="fas fa-male"></i> x {props.people}
             </li>
+            <li>
+              <i className="fas fa-utensils"></i> {props.complimentary}
+            </li>
+            <li>
+              <i className="fas fa-spa"></i> {props.spa}
+            </li>
           </ul>
 
-          {/* {props.text} */}
-          <button className="btn btn-outline-secondary">More Info</button>
+          {/* <button className="btn btn-outline-secondary">More Info</button> */}
         </div>
       </div>
     </div>

@@ -5,6 +5,8 @@
 
 #room>.row>.col-md-4 {
   border: 1px solid orange;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #room>.row>.col-md-8>img {
@@ -17,6 +19,27 @@
   display: block;
 }
 
+
+
+/* list  */
 #room>.row>.col-md-4>ul {
   list-style-type: none;
+  padding-left: 20px;
+}
+
+#room>.row>.col-md-4>ul>li>i {
+  padding-right: 7px;
+  /* padding: */
+}
+
+.fas.fa-male {
+  margin-right: 16px;
+}
+
+.fas.fa-utensils {
+  margin-right: 8px;
+}
+
+.fas.fa-spa {
+  margin-right: 3px;
 }
