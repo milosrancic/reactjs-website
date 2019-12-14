@@ -1,18 +1,6 @@
 #home {
-  margin-top: 30px;
-  margin-bottom: 100px;
-}
+  background: url("../images/background-photo.jpg") no-repeat center center fixed;
 
-/* .card-title {
-  text-align: center;
-  padding: 100px 0;
-} */
-
-
-#home {
-  // background: url("../images/background-photo.jpg") no-repeat center center fixed;
-
-  // background-size: cover;
-  // height: 650px;
-
+  background-size: cover;
+  min-height: 100vh;
 }
