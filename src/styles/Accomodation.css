@@ -1,3 +1,5 @@
-#accomodation>p>i {
+#accomodation>div>i {
   color: orange;
+  line-height: 2em;
+  margin: 0 5px 0 15px;
 }
