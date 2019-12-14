@@ -8,8 +8,6 @@ import accomodation3 from "../images/accomodation-03.jpg";
 import accomodation4 from "../images/accomodation-04.jpg";
 import accomodation5 from "../images/accomodation-05.jpg";
 
-// each room will have its own "more information" button, and when hovered over it will show more info right there
-
 const Accomodation = () => {
   return (
     <div id="accomodation">
@@ -18,45 +16,58 @@ const Accomodation = () => {
         title="Standard Double Room"
         subtitle="Start from $70/night"
         beds="1 Queen Bed"
-        people="2"
-        complimentary="Free breakfast"
-        spa="30% discount on spa"
+        people="2 People"
+        bar="Mini Bar"
+        food="Free breakfast"
+        gym="Gym access"
+        spa="30% off spa"
+        feedback="Best for couples"
         img={accomodation2}
       />
       <Room
         title="Standard Double Room"
         subtitle="Start from $70/night"
         beds="1 Queen Bed"
-        people="2"
-        complimentary="Free breakfast"
-        spa="30% discount on spa"
+        people="2 People"
+        bar="Mini Bar"
+        food="Free breakfast"
+        gym="Gym access"
+        spa="30% off spa"
+        feedback="Best for couples"
         img={accomodation5}
       />
       <Room
         title="Standard Suite"
         subtitle="Start from $120/night"
         beds="1 Queen Bed & 1 Single Bed"
-        people="3"
-        complimentary="Free lunch"
-        spa="50% discount on spa"
+        people="3 People"
+        bar="Mini Bar"
+        food="Free lunch"
+        gym="Gym access"
+        spa="50% off spa"
+        feedback="Superb"
         img={accomodation4}
       />
       <Room
         title="Standard Suite"
         subtitle="Start from $120/night"
         beds="1 Queen Bed & 2 Single Beds"
-        people="4"
-        complimentary="Free lunch"
-        spa="50% discount on spa"
-        feedback="Superb"
+        people="4 People"
+        bar="Mini Bar"
+        food="Free lunch"
+        gym="Gym access"
+        spa="50% off spa"
+        feedback="Best value for money"
         img={accomodation3}
       />
       <Room
         title="Family Suite"
         subtitle="Start from $220/night"
         beds="2 Queen Beds & 2 Single Beds"
-        people="6"
-        complimentary="Free breakfast & lunch"
+        people="6 People"
+        bar="Mini Bar"
+        food="Free breakfast & lunch"
+        gym="Gym access"
         spa="Complimentary spa"
         feedback="Guest favorite"
         img={accomodation1}
