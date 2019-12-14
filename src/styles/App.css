@@ -2,6 +2,12 @@
   position: relative;
   min-height: 100vh;
   padding-bottom: 2.7rem;
+
+  background: url("../images/background-photo.jpg") no-repeat center center fixed;
+
+  background-size: cover;
+  height: 650px;
+
 }
 
 nav {
