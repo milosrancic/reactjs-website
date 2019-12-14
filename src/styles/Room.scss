@@ -1,0 +1,55 @@
+#room {
+  .row {
+    align-items: center;
+
+    // delete this at the end
+    border: 1px solid orchid;
+  }
+
+  // delete this at the end
+  .col-md-8>img {
+    border-radius: 0.8em;
+    border: 1px solid red;
+  }
+
+  .col-md-4 {
+    border: 1px solid orange;
+    padding: 50px 30px;
+
+    .feedback {
+      position: absolute;
+      top: 10px;
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 20px;
+
+      li>i {
+        padding-right: 7px;
+      }
+    }
+  }
+}
+
+.fas.fa-male {
+  margin-right: 16px;
+}
+
+.fas.fa-glass-martini-alt {
+  margin-right: 9px;
+}
+
+.fas.fa-utensils {
+  margin-right: 8px;
+}
+
+.fas.fa-dumbbell {
+  margin-right: 4px;
+}
+
+.fas.fa-spa {
+  margin-right: 2px;
+}
