@@ -1,5 +1,15 @@
-#accomodation>div>i {
+#accomodation>div>ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+#accomodation>div>ul>li>i {
   color: orange;
   line-height: 2em;
-  margin: 0 5px 0 15px;
+  margin: 0 8px 0 15px;
 }
