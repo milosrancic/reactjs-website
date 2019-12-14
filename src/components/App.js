@@ -14,7 +14,7 @@ import Footer from "./Footer";
 class App extends React.Component {
   render() {
     return (
-      <div id="app" className="container-fluid">
+      <div id="app" className="container-fluid p-0">
         <Router>
           {/* nav wiil be transparent */}
           <nav>
