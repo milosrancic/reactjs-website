@@ -68,7 +68,7 @@ const Accomodation = () => {
         bar="Mini Bar"
         food="Free breakfast & lunch"
         gym="Gym access"
-        spa="Complimentary spa"
+        spa="Free spa"
         feedback="Guest favorite"
         img={accomodation1}
       />

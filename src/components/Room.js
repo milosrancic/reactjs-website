@@ -1,10 +1,6 @@
 import React from "react";
 import "../styles/Room.scss";
 
-// array of couple sentences that will be shown randomly by using math.random
-// this will be props at Accomodation component
-// ["Booked 6 times in last 15 days", "Last one avalible for this week"] - like this
-
 const Room = props => {
   return (
     <div id="room">
@@ -39,6 +35,8 @@ const Room = props => {
               <i className="fas fa-spa"></i> {props.spa}
             </li>
           </ul>
+
+          <p>{props.sentence}</p>
         </div>
       </div>
     </div>
