@@ -1,0 +1,18 @@
+#accomodation {
+  padding-bottom: 50px;
+
+  .facility-icons>ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    li>i {
+      color: orange;
+      line-height: 2em;
+      margin: 0 8px 0 15px;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import Room from "./Room";
-import "../styles/Accomodation.css";
+import "../styles/Accomodation.scss";
 
 import accomodation1 from "../images/accomodation-01.jpg";
 import accomodation2 from "../images/accomodation-02.jpg";
@@ -72,7 +72,7 @@ const Accomodation = () => {
         feedback="Guest favorite"
         img={accomodation1}
       />
-      <div className="text-center mt-5 mb-4">
+      <div className="text-center mt-5 mb-4 facility-icons">
         <ul>
           <li>
             <i className="fas fa-wifi"></i>Free WiFi
