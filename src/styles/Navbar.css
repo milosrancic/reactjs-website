@@ -1,0 +1,9 @@
+nav {
+  /* background: transparent; */
+  /* background: none; */
+  background: lightsalmon;
+}
+
+.nav-link {
+  padding: 0.7rem;
+}
