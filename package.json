@@ -10,7 +10,8 @@
     "react-calendar": "^2.19.1",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "handlebars": ">=4.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
