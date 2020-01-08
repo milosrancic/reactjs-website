@@ -5,7 +5,7 @@ import "../styles/Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav id="navbar" className="container-fluid">
+    <nav id="navbar" className="container-fluid mb-4">
       <ul className="nav justify-content-center  ">
         <li className="nav-item">
           <Link to={"/"} className="nav-link">
