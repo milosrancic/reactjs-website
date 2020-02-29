@@ -3,9 +3,12 @@ import "../styles/Home.scss";
 import Carousel from 'react-bootstrap/Carousel'
 
 // images
-import accomodation2 from "../images/accomodation-02.jpg";
-import accomodation3 from "../images/accomodation-03.jpg"
-import accomodation1 from "../images/accomodation-01.jpg"
+import carousel01 from "../images/carousel-01.jpeg";
+import carousel02 from "../images/carousel-02.jpeg";
+import carousel03 from "../images/carousel-03.jpeg";
+import carousel04 from "../images/carousel-04.jpeg";
+import carousel05 from "../images/carousel-05.jpeg";
+
 
 const Home = () => {
   return (
@@ -14,8 +17,8 @@ const Home = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 "
-            src={accomodation2}
-            alt="First slide"
+            style={{ backgroundImage: `url(${carousel01})` }}
+            alt=""
           />
           {/* <Carousel.Caption>
           <h3>First slide label</h3>
@@ -25,10 +28,9 @@ const Home = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={accomodation3}
-            alt="Third slide"
+            style={{ backgroundImage: `url(${carousel02})` }}
+            alt=""
           />
-
           {/* <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -37,10 +39,31 @@ const Home = () => {
         <Carousel.Item>
           <img
             className="d-block w-100 "
-            src={accomodation1}
-            alt="Third slide"
+            style={{ backgroundImage: `url(${carousel03})` }}
+            alt=""
           />
-
+          {/* <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </Carousel.Caption> */}
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 "
+            style={{ backgroundImage: `url(${carousel04})` }}
+            alt=""
+          />
+          {/* <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </Carousel.Caption> */}
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 "
+            style={{ backgroundImage: `url(${carousel05})` }}
+            alt=""
+          />
           {/* <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
