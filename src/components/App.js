@@ -25,7 +25,7 @@ class App extends React.Component {
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }
