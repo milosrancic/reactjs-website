@@ -1,78 +1,51 @@
 import React from "react";
 import "../styles/Home.scss";
+import Carousel from 'react-bootstrap/Carousel'
 
 // images
-import accomodation from "../images/accomodation-01.jpg";
+import accomodation2 from "../images/accomodation-02.jpg";
+import weddings from "../images/weddings.jpg"
+import accomodation1 from "../images/accomodation-01.jpg"
 
 const Home = () => {
   return (
-    <div id="home" className="container-fluid">
-      <div className="jumbotron ">
-        <div className="container">
-          <h1 className="display-4">Fluid jumbotron</h1>
-          <p className="lead">
-            This is a modified jumbotron that occupies the entire horizontal
-            space of its parent.
-          </p>
-        </div>
-      </div>
+    <Carousel id="home">
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={accomodation2}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={accomodation1}
+          alt="Third slide"
+        />
 
-      <div className="card-group">
-        <div className="card">
-          <img
-            className="card-img-top"
-            src={accomodation}
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
-          </div>
-          <div className="card-footer">
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-        <div className="card">
-          <img
-            className="card-img-top"
-            src={accomodation}
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This card has supporting text below as a natural lead-in to
-              additional content.
-            </p>
-          </div>
-          <div className="card-footer">
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-        <div className="card">
-          <img
-            className="card-img-top"
-            src={accomodation}
-            alt="Card image cap"
-          />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-          </div>
-          <div className="card-footer">
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </div>
-        </div>
-      </div>
-    </div>
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src={weddings}
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
   );
 };
 
