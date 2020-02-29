@@ -1,8 +1,5 @@
-nav {
-  /* background: transparent; */
-  /* background: none; */
+#navbar {
   background: lightsalmon;
-  margin-top: 30px;
 }
 
 .nav-link {

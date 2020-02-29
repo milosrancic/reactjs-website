@@ -6,33 +6,31 @@ import "../styles/Navbar.css";
 
 const Navbar = () => {
   return (
-    <>
-      <Nav className="justify-content-center" activeKey="/home">
-        <Nav.Item>
-          <Link to={"/"} className="nav-link">Home</Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Link to={"/accomodation"} className="nav-link">
-            Accomodation
+    <Nav id="navbar" className="justify-content-center" activeKey="/home">
+      <Nav.Item>
+        <Link to={"/"} className="nav-link">Home</Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Link to={"/accomodation"} className="nav-link">
+          Accomodation
           </Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Link to={"/gallery"} className="nav-link">
-            Gallery
+      </Nav.Item>
+      <Nav.Item>
+        <Link to={"/gallery"} className="nav-link">
+          Gallery
           </Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Link to={"/bookings"} className="nav-link">
-            Bookings
+      </Nav.Item>
+      <Nav.Item>
+        <Link to={"/bookings"} className="nav-link">
+          Bookings
           </Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Link to={"/contact"} className="nav-link">
-            Contact
+      </Nav.Item>
+      <Nav.Item>
+        <Link to={"/contact"} className="nav-link">
+          Contact
           </Link>
-        </Nav.Item>
-      </Nav>
-    </>
+      </Nav.Item>
+    </Nav>
   );
 };
 export default Navbar;
