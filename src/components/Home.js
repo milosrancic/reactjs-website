@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 // images
 import accomodation2 from "../images/accomodation-02.jpg";
-import weddings from "../images/weddings.jpg"
+import accomodation3 from "../images/accomodation-03.jpg"
 import accomodation1 from "../images/accomodation-01.jpg"
 
 const Home = () => {
@@ -36,7 +36,7 @@ const Home = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={weddings}
+          src={accomodation3}
           alt="Third slide"
         />
 
