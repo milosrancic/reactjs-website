@@ -1,39 +1,38 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Nav from 'react-bootstrap/Nav'
 
 import "../styles/Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav id="navbar" className="container-fluid mb-4">
-      <ul className="nav justify-content-center  ">
-        <li className="nav-item">
-          <Link to={"/"} className="nav-link">
-            Home
-          </Link>
-        </li>
-        <li className="nav-item">
+    <>
+      <Nav className="justify-content-center" activeKey="/home">
+        <Nav.Item>
+          <Link to={"/"} className="nav-link">Home</Link>
+        </Nav.Item>
+        <Nav.Item>
           <Link to={"/accomodation"} className="nav-link">
             Accomodation
           </Link>
-        </li>
-        <li className="nav-item">
+        </Nav.Item>
+        <Nav.Item>
           <Link to={"/gallery"} className="nav-link">
             Gallery
           </Link>
-        </li>
-        <li className="nav-item">
+        </Nav.Item>
+        <Nav.Item>
           <Link to={"/bookings"} className="nav-link">
             Bookings
           </Link>
-        </li>
-        <li className="nav-item">
+        </Nav.Item>
+        <Nav.Item>
           <Link to={"/contact"} className="nav-link">
             Contact
           </Link>
-        </li>
-      </ul>
-    </nav>
+        </Nav.Item>
+      </Nav>
+    </>
   );
 };
 export default Navbar;
