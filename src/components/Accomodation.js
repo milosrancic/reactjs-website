@@ -3,7 +3,7 @@ import Room from "./Room";
 import "../styles/Accomodation.scss";
 
 import accomodation1 from "../images/accomodation-01.jpg";
-import accomodation2 from "../images/accomodation-02.jpg";
+import accomodation2 from "../images/accomodation-02.jpeg";
 import accomodation3 from "../images/accomodation-03.jpg";
 import accomodation4 from "../images/accomodation-04.jpg";
 import accomodation5 from "../images/accomodation-05.jpg";
@@ -22,7 +22,7 @@ const Accomodation = () => {
         gym="Gym access"
         spa="30% off spa"
         feedback="Best for couples"
-        img={accomodation2}
+        img={accomodation3}
       />
       <Room
         title="Standard Double Room"
@@ -58,7 +58,7 @@ const Accomodation = () => {
         gym="Gym access"
         spa="50% off spa"
         feedback="Best value for money"
-        img={accomodation3}
+        img={accomodation2}
       />
       <Room
         title="Family Suite"
