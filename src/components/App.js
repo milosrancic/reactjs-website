@@ -6,7 +6,7 @@ import "../styles/App.css";
 import Navbar from "./Navbar";
 import Home from "./Home.js";
 import Accomodation from "./Accomodation.js";
-import Gallery from "./Gallery.js";
+import Activities from "./Activities.js";
 import Contact from "./Contact.js";
 import Bookings from "./Bookings.js";
 import NotFound from "./NotFound";
@@ -20,7 +20,7 @@ class App extends React.Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/accomodation" component={Accomodation} />
-          <Route path="/gallery" component={Gallery} />
+          <Route path="/activities" component={Activities} />
           <Route path="/bookings" component={Bookings} />
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />

@@ -16,8 +16,8 @@ const Navbar = () => {
           </Link>
       </Nav.Item>
       <Nav.Item>
-        <Link to={"/gallery"} className="nav-link">
-          Gallery
+        <Link to={"/activities"} className="nav-link">
+          Activities
           </Link>
       </Nav.Item>
       <Nav.Item>
