@@ -10,7 +10,7 @@ import Activities from "./Activities.js";
 import Contact from "./Contact.js";
 import Bookings from "./Bookings.js";
 import NotFound from "./NotFound";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 class App extends React.Component {
   render() {
