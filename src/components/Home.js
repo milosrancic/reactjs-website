@@ -13,6 +13,7 @@ import carousel05 from "../images/carousel-05.jpg";
 const Home = () => {
   return (
     <>
+      <h1 className="text-center">Hotel name </h1>
       <Carousel id="home">
         <Carousel.Item>
           <img
