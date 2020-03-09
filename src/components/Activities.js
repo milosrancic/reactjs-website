@@ -1,12 +1,10 @@
 import React from "react";
 import "../styles/Activities.css";
 import CardDeck from 'react-bootstrap/CardDeck'
-import CardGroup from 'react-bootstrap/CardGroup'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
+
 // images
-import carousel01 from "../images/carousel-01.jpg";
-import carousel02 from "../images/carousel-02.jpg";
 import activities01 from "../images/activities-01.jpeg";
 import activities02 from "../images/activities-02.jpeg";
 import activities03 from "../images/activities-03.jpeg";
