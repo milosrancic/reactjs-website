@@ -32,7 +32,7 @@ const Home = () => {
             alt=""
           />
           <Carousel.Caption>
-            <h3>Breathe super clean air</h3>
+            <h3>Breathe in, breathe out</h3>
             <p>Right next to hotel.</p>
           </Carousel.Caption>
         </Carousel.Item>
