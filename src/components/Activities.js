@@ -9,7 +9,8 @@ import carousel01 from "../images/carousel-01.jpg";
 import carousel02 from "../images/carousel-02.jpg";
 import activities01 from "../images/activities-01.jpeg";
 import activities02 from "../images/activities-02.jpeg";
-import carousel05 from "../images/carousel-05.jpg";
+import activities03 from "../images/activities-03.jpeg";
+import activities04 from "../images/activities-04.jpeg";
 
 const Activities = () => {
   return (
@@ -47,7 +48,7 @@ const Activities = () => {
 
       <CardDeck className="mt-5">
         <Card>
-          <Card.Img variant="top" src={carousel01} />
+          <Card.Img variant="top" src={activities03} />
           <Card.Body>
             <Card.Title>Rafting</Card.Title>
             <Card.Text>
@@ -60,7 +61,7 @@ const Activities = () => {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src={carousel02} />
+          <Card.Img variant="top" src={activities04} />
           <Card.Body>
             <Card.Title>Camp Firing </Card.Title>
             <Card.Text>
