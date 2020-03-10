@@ -34,7 +34,6 @@ class Bookings extends React.Component {
         <DateRangePicker
           onChange={this.onChange}
           value={this.state.date}
-          isOpen={true}
           format="dd-MM-y"
           rangeDivider=" to "
         />
@@ -42,5 +41,6 @@ class Bookings extends React.Component {
     );
   }
 }
+// isOpen={true}
 
 export default Bookings;
