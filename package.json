@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@wojtekmaj/react-daterange-picker": "^2.5.0",
     "bootstrap": "^4.4.1",
     "handlebars": "^4.7.3",
     "moment": "^2.24.0",
