@@ -26,21 +26,11 @@ class Bookings extends React.Component {
     date: [new Date(), new Date()],
   };
 
-
-  daysTotal = () => {
-    return
-  };
-
   onChange = date => this.setState({ date })
 
   render() {
-    // let dateA = this.state.date1;
-    // let date2 = this.state.date2;
-
     return (
       <div id="bookings" className="container text-center">
-
-        <p>Check-in</p>
         <DateRangePicker
           onChange={this.onChange}
           value={this.state.date}
@@ -48,10 +38,6 @@ class Bookings extends React.Component {
           format="dd-MM-y"
           rangeDivider=" to "
         />
-        {/* </div> */}
-
-
-        <p className="text-left">you are staying for {this.daysTotal()} days </p>
       </div>
     );
   }
