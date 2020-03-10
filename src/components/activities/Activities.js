@@ -1,14 +1,14 @@
 import React from "react";
-import "../styles/Activities.css";
+import "../../styles/Activities.css";
 import CardDeck from 'react-bootstrap/CardDeck'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 
 // images
-import activities01 from "../images/activities-01.jpeg";
-import activities02 from "../images/activities-02.jpeg";
-import activities03 from "../images/activities-03.jpeg";
-import activities04 from "../images/activities-04.jpeg";
+import activities01 from "../../images/activities-01.jpeg";
+import activities02 from "../../images/activities-02.jpeg";
+import activities03 from "../../images/activities-03.jpeg";
+import activities04 from "../../images/activities-04.jpeg";
 
 const Activities = () => {
   return (

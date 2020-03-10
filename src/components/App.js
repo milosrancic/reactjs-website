@@ -6,7 +6,7 @@ import "../styles/App.css";
 import Navbar from "./Navbar";
 import Home from "./Home.js";
 import Accomodation from "./accomodation/Accomodation.js";
-import Activities from "./Activities.js";
+import Activities from "./activities/Activities.js";
 import Contact from "./Contact.js";
 import Bookings from "./Bookings.js";
 import NotFound from "./NotFound";
