@@ -1,12 +1,15 @@
 import React from "react";
-import "../styles/NotFound.css";
+
+const style = {
+  marginTop: "170px",
+  letterSpacing: "1px",
+  textAlign: "center"
+}
 
 const NotFound = () => (
-  <div className="text-center">
-    <h4 id="not-found">
-      Sorry, but the page you have requested was not found.
-    </h4>
-  </div>
+  <h4 style={style}>
+    Sorry, but the page you have requested was not found.
+  </h4>
 );
 
 export default NotFound;
