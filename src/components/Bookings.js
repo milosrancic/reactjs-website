@@ -11,17 +11,17 @@ class Bookings extends React.Component {
 
   render() {
     return (
-      <div className="Bookings container text-center">
+      <div className="Bookings container text-center my-5">
         <DateRangePicker
           onChange={this.onChange}
           value={this.state.date}
           format="dd-MM-y"
           autoFocus={true}
-          isOpen={true}
         />
       </div>
     );
   }
 }
+// isOpen={true}
 
 export default Bookings;
