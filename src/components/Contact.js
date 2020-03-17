@@ -8,7 +8,7 @@ const handleSubmit = event => {
 
 const Contact = () => {
   return (
-    <div className="Contact container">
+    <div className="Contact container my-5">
       <h3>Contact us</h3>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
@@ -84,9 +84,9 @@ const Contact = () => {
           Submit
         </button>
 
-        <div className="float-right newsletter-div mt-3">
+        <div className="float-right newsletter-div my-5">
           <small className="text-newsletter">
-            Newsletter: <input type="text" className="input-newsletter" />
+            Newsletter: <br /> <input type="text" className="input-newsletter" />
           </small>
           <button
             type="button"
