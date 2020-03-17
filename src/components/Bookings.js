@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Bookings.css";
-// import Calendar from "react-calendar";
 import DateRangePicker from '@wojtekmaj/react-daterange-picker';
 
 class Bookings extends React.Component {
