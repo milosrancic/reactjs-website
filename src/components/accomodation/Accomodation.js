@@ -10,7 +10,7 @@ import accomodation5 from "../../images/accomodation-05.jpg";
 
 const Accomodation = () => {
   return (
-    <div className="Accomodation container">
+    <div className="Accomodation container my-5">
       <h3>Accomodation</h3>
       <Room
         title="Standard Double Room"

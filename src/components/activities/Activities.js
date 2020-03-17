@@ -13,7 +13,7 @@ import activities06 from "../../images/activities-06.jpeg";
 
 const Activities = () => {
   return (
-    <div className="Activities container">
+    <div className="Activities container my-5">
       <h3>Things to do </h3>
 
       <CardDeck>
