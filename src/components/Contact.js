@@ -8,7 +8,7 @@ const handleSubmit = event => {
 
 const Contact = () => {
   return (
-    <div id="contact" className="container">
+    <div className="Contact container">
       <h3>Contact us</h3>
       <form onSubmit={handleSubmit}>
         <div className="form-group">

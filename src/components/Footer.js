@@ -3,7 +3,7 @@ import "../styles/Footer.css";
 
 const Footer = () => {
   return (
-    <div id="footer">
+    <div className="Footer">
       <small className="author-text">
         by: Milos Rancic{" "}
         <a

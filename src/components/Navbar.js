@@ -6,7 +6,7 @@ import "../styles/Navbar.css";
 
 const Navbar = () => {
   return (
-    <Nav id="navbar" className="justify-content-center" activeKey="/home">
+    <Nav className="Navbar justify-content-center" activeKey="/home">
       <Nav.Item>
         <Link to={"/"} className="nav-link">Home</Link>
       </Nav.Item>

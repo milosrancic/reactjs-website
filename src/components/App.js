@@ -15,7 +15,7 @@ import NotFound from "./NotFound";
 class App extends React.Component {
   render() {
     return (
-      <div id="app" className="container-fluid p-0">
+      <div className="App container-fluid p-0">
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />

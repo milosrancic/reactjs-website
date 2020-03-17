@@ -13,7 +13,7 @@ import activities06 from "../../images/activities-06.jpeg";
 
 const Activities = () => {
   return (
-    <div id="activities" className="container">
+    <div className="Activities container">
       <h3>Things to do </h3>
 
       <CardDeck>
@@ -22,44 +22,44 @@ const Activities = () => {
           title="Hiking"
           text="This card has supporting text below as a natural lead-in to additional
         content."
-         />
-         <ActivityCard 
+        />
+        <ActivityCard
           img={activities01}
           title="Horseback riding"
           text="This card has supporting text below as a natural lead-in to additional
         content."
-         />
+        />
       </CardDeck>
 
       <CardDeck className="mt-5 mb-5">
         <ActivityCard
-        img={activities03}
+          img={activities03}
           title="Rafting"
           text="This card has supporting text below as a natural lead-in to additional
         content."
-         />
-         <ActivityCard
-        img={activities04}
+        />
+        <ActivityCard
+          img={activities04}
           title="Camp Firing"
           text="This card has supporting text below as a natural lead-in to additional
         content."
-         />
+        />
       </CardDeck>
 
       <CardDeck>
-      <ActivityCard
-        img={activities05}
+        <ActivityCard
+          img={activities05}
           title="Fishing"
           text="This card has supporting text below as a natural lead-in to additional
         content."
-         />
+        />
 
-         <ActivityCard
-        img={activities06}
+        <ActivityCard
+          img={activities06}
           title="Mountain biking"
           text="This card has supporting text below as a natural lead-in to additional
         content."
-         />
+        />
       </CardDeck>
     </div>
   );

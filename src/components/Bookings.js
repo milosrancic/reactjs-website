@@ -30,12 +30,13 @@ class Bookings extends React.Component {
 
   render() {
     return (
-      <div id="bookings" className="container text-center">
+      <div className="Bookings container text-center">
         <DateRangePicker
           onChange={this.onChange}
           value={this.state.date}
           format="dd-MM-y"
           rangeDivider=" to "
+          autoFocus={true}
         />
       </div>
     );

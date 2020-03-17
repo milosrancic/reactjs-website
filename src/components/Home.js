@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <h1 className="text-center">Hotel name </h1>
-      <Carousel id="home">
+      <Carousel>
         <Carousel.Item>
           <img
             className="d-block w-100 "
