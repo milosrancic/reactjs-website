@@ -22,3 +22,12 @@ h1 {
   background: no-repeat center center scroll;
   background-size: cover;
 }
+
+.testimonials {
+  max-width: 500px;
+  margin: 50px auto;
+
+  .carousel-item{
+    padding: 20px 0 50px;
+  }
+}
