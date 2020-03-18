@@ -81,17 +81,20 @@ const Home = () => {
           >
             <Carousel.Item>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum doloribus temporibus placeat nostrum tempora labore dolor aspernatur eos, autem tenetur, inventore ullam? Non, provident cumque! Corrupti inventore suscipit neque quaerat!</p>
-              <span className="font-weight-bold">CEO of the company</span>
+              <span>CEO of the company</span>
             </Carousel.Item>
             <Carousel.Item>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In debitis placeat aliquam repellat deleniti, odit culpa voluptatibus sint sunt, iusto, fuga nulla tenetur atque ratione. Obcaecati nulla velit accusamus, iste id adipisci blanditiis.</p>
-              <span className="font-weight-bold">Awesome man</span>
+              <span>Awesome man</span>
             </Carousel.Item>
             <Carousel.Item>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque quis perferendis architecto id possimus pariatur, voluptatum dignissimos exercitationem minus, optio eveniet officiis laudantium magnam saepe ad.</p>
-              <span className="font-weight-bold">Customer</span>
+              <span>Customer</span>
             </Carousel.Item>
           </Carousel>
+        </div>
+        <div className="container">
+          {/* social media icons, placeholder adress */}
         </div>
       </div>
     </>
