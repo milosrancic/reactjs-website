@@ -9,7 +9,6 @@ import carousel03 from "../images/carousel-03.jpg";
 import carousel04 from "../images/carousel-04.jpg";
 import carousel05 from "../images/carousel-05.jpg";
 
-
 const Home = () => {
   return (
     <>
