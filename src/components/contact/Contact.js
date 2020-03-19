@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Contact.css";
+import "./Contact.css";
 
 // AT THE BOTTOM PUT PLACEHOLDER ADRESS
 

@@ -1,6 +1,6 @@
 import React from "react";
-import Room from "./Room/Room";
 import "./Accomodation.scss";
+import Room from "./room/Room"
 
 import accomodation1 from "../../assets/images/accomodation-01.jpg"
 import accomodation2 from "../../assets/images/accomodation-02.jpeg";

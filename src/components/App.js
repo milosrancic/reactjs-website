@@ -4,11 +4,11 @@ import { Switch, Route } from "react-router-dom";
 import "../styles/App.css";
 
 import Navbar from "./Navbar";
-import Home from "./Home.js";
-import Accomodation from "./accomodation/Accomodation.js";
-import Activities from "./activities/Activities.js";
-import Contact from "./Contact.js";
-import Bookings from "./Bookings.js";
+import Home from "./Home";
+import Accomodation from "./accomodation/Accomodation";
+import Activities from "./activities/Activities";
+import Contact from "./contact/Contact";
+import Bookings from "./Bookings";
 import NotFound from "./NotFound";
 // import Footer from "./Footer";
 
