@@ -1,7 +1,7 @@
 import React from "react";
-import "../../styles/Activities.css";
+import "./Activities.css";
 import CardDeck from 'react-bootstrap/CardDeck'
-import ActivityCard from "./ActivityCard";
+import ActivityCard from "./activityCard/ActivityCard";
 
 import activities1 from "../../assets/images/activities-01.jpeg";
 import activities2 from "../../assets/images/activities-02.jpeg";

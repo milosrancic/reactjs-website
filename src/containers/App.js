@@ -1,16 +1,16 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import "../styles/App.css";
+import "./App.css";
 
-import Navbar from "./Navbar";
-import Home from "./home/Home";
-import Accomodation from "./accomodation/Accomodation";
-import Activities from "./activities/Activities";
-import Contact from "./contact/Contact";
-import Bookings from "./Bookings";
-import NotFound from "./NotFound";
-// import Footer from "./Footer";
+import Navbar from "../components/Navbar";
+import Home from "../components/home/Home";
+import Accomodation from "../components/accomodation/Accomodation";
+import Activities from "../components/activities/Activities";
+import Contact from "../components/contact/Contact";
+import Bookings from "../components/Bookings";
+import NotFound from "../components/NotFound";
+// import Footer from "../components/Footer";
 
 class App extends React.Component {
   render() {
