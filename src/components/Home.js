@@ -3,11 +3,11 @@ import "../styles/Home.scss";
 import Carousel from 'react-bootstrap/Carousel'
 
 // images
-import carousel01 from "../images/carousel-01.jpg";
-import carousel02 from "../images/carousel-02.jpg";
-import carousel03 from "../images/carousel-03.jpg";
-import carousel04 from "../images/carousel-04.jpg";
-import carousel05 from "../images/carousel-05.jpg";
+import carousel01 from "../assets/images/carousel-01.jpg";
+import carousel02 from "../assets/images/carousel-02.jpg";
+import carousel03 from "../assets/images/carousel-03.jpg";
+import carousel04 from "../assets/images/carousel-04.jpg";
+import carousel05 from "../assets/images/carousel-05.jpg";
 
 const Home = () => {
   return (

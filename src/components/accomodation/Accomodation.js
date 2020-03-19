@@ -2,11 +2,11 @@ import React from "react";
 import Room from "./Room";
 import "../../styles/Accomodation.scss";
 
-import accomodation1 from "../../images/accomodation-01.jpg";
-import accomodation2 from "../../images/accomodation-02.jpeg";
-import accomodation3 from "../../images/accomodation-03.jpg";
-import accomodation4 from "../../images/accomodation-04.jpg";
-import accomodation5 from "../../images/accomodation-05.jpg";
+import accomodation1 from "../../assets/images/accomodation-01.jpg"
+import accomodation2 from "../../assets/images/accomodation-02.jpeg";
+import accomodation3 from "../../assets/images/accomodation-03.jpg";
+import accomodation4 from "../../assets/images/accomodation-04.jpg";
+import accomodation5 from "../../assets/images/accomodation-05.jpg";
 
 const Accomodation = () => {
   return (

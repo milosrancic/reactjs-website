@@ -3,13 +3,12 @@ import "../../styles/Activities.css";
 import CardDeck from 'react-bootstrap/CardDeck'
 import ActivityCard from "./ActivityCard";
 
-
-import activities01 from "../../images/activities-01.jpeg";
-import activities02 from "../../images/activities-02.jpeg";
-import activities03 from "../../images/activities-03.jpeg";
-import activities04 from "../../images/activities-04.jpeg";
-import activities05 from "../../images/activities-05.jpeg";
-import activities06 from "../../images/activities-06.jpeg";
+import activities1 from "../../assets/images/activities-01.jpeg";
+import activities2 from "../../assets/images/activities-02.jpeg";
+import activities3 from "../../assets/images/activities-03.jpeg";
+import activities4 from "../../assets/images/activities-04.jpeg";
+import activities5 from "../../assets/images/activities-05.jpeg";
+import activities6 from "../../assets/images/activities-06.jpeg";
 
 const Activities = () => {
   return (
@@ -18,13 +17,13 @@ const Activities = () => {
 
       <CardDeck>
         <ActivityCard
-          img={activities02}
+          img={activities2}
           title="Hiking"
           text="This card has supporting text below as a natural lead-in to additional
         content."
         />
         <ActivityCard
-          img={activities01}
+          img={activities1}
           title="Horseback riding"
           text="This card has supporting text below as a natural lead-in to additional
         content."
@@ -33,13 +32,13 @@ const Activities = () => {
 
       <CardDeck className="mt-5 mb-5">
         <ActivityCard
-          img={activities03}
+          img={activities3}
           title="Rafting"
           text="This card has supporting text below as a natural lead-in to additional
         content."
         />
         <ActivityCard
-          img={activities04}
+          img={activities4}
           title="Camp Firing"
           text="This card has supporting text below as a natural lead-in to additional
         content."
@@ -48,14 +47,14 @@ const Activities = () => {
 
       <CardDeck>
         <ActivityCard
-          img={activities05}
+          img={activities5}
           title="Fishing"
           text="This card has supporting text below as a natural lead-in to additional
         content."
         />
 
         <ActivityCard
-          img={activities06}
+          img={activities6}
           title="Mountain biking"
           text="This card has supporting text below as a natural lead-in to additional
         content."
