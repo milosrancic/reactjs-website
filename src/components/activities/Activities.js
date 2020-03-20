@@ -19,14 +19,12 @@ const Activities = () => {
         <ActivityCard
           img={activities2}
           title="Hiking"
-          text="This card has supporting text below as a natural lead-in to additional
-        content."
+          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum."
         />
         <ActivityCard
           img={activities1}
           title="Horseback riding"
-          text="This card has supporting text below as a natural lead-in to additional
-        content."
+          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum."
         />
       </CardDeck>
 
@@ -34,14 +32,12 @@ const Activities = () => {
         <ActivityCard
           img={activities3}
           title="Rafting"
-          text="This card has supporting text below as a natural lead-in to additional
-        content."
+          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum."
         />
         <ActivityCard
           img={activities4}
           title="Camp Firing"
-          text="This card has supporting text below as a natural lead-in to additional
-        content."
+          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum."
         />
       </CardDeck>
 
@@ -49,15 +45,13 @@ const Activities = () => {
         <ActivityCard
           img={activities5}
           title="Fishing"
-          text="This card has supporting text below as a natural lead-in to additional
-        content."
+          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum."
         />
 
         <ActivityCard
           img={activities6}
           title="Mountain biking"
-          text="This card has supporting text below as a natural lead-in to additional
-        content."
+          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum."
         />
       </CardDeck>
     </div>
