@@ -93,8 +93,10 @@ const Home = () => {
             </Carousel.Item>
           </Carousel>
         </div>
-        <div className="container">
-          {/* social media icons, placeholder adress */}
+        <div className="container social-media text-center">
+          <a href="#top"><i className="fab fa-2x fa-facebook-square"></i></a>
+          <a href="#top"><i className="fab fa-2x fa-yelp"></i></a>
+          <a href="#top"><i className="far fa-2x fa-envelope"></i></a>
         </div>
       </div>
     </>

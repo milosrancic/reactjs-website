@@ -24,6 +24,7 @@ h1 {
 }
 
 .testimonials {
+  border: 1px solid orange;
   max-width: 500px;
   margin: 50px auto;
 
@@ -33,5 +34,11 @@ h1 {
     span {
       font-weight: bold;
     }
+  }
+}
+
+.social-media {
+  i {
+    margin: 0 15px;
   }
 }
