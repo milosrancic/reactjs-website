@@ -4,7 +4,7 @@ import "./Room.scss";
 const Room = props => {
   return (
     <div className="Room">
-      <div className="row">
+      <div className="row mt-5">
         <div className="col-md-8">
           <img src={props.img} className="img-fluid" alt="" />
         </div>
