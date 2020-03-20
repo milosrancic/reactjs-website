@@ -21,7 +21,7 @@ const Home = () => {
             alt=""
           />
           <Carousel.Caption>
-            <h3>Experience this sunrise</h3>
+            <h4>Experience this sunrise</h4>
             <p>Just a 30 minute walk from hotel.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -32,7 +32,7 @@ const Home = () => {
             alt=""
           />
           <Carousel.Caption>
-            <h3>Breathe in, breathe out</h3>
+            <h4>Breathe in, breathe out</h4>
             <p>Right next to hotel.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -43,7 +43,7 @@ const Home = () => {
             alt=""
           />
           <Carousel.Caption>
-            <h3>Enjoy the view</h3>
+            <h4>Enjoy the view</h4>
             <p>Bench, hot coffee and silence.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -54,7 +54,7 @@ const Home = () => {
             alt=""
           />
           <Carousel.Caption>
-            <h3>Rafting</h3>
+            <h4>Rafting</h4>
             <p>An hour drive from hotel.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -65,7 +65,7 @@ const Home = () => {
             alt=""
           />
           <Carousel.Caption>
-            <h3>Absorb everything</h3>
+            <h4>Absorb everything</h4>
             <p>After two hours of climbing, this is the prize.</p>
           </Carousel.Caption>
         </Carousel.Item>

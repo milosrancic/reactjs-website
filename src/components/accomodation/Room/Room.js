@@ -4,13 +4,13 @@ import "./Room.scss";
 const Room = props => {
   return (
     <div className="Room">
-      <div className="row mt-5">
+      <div className="row">
         <div className="col-md-8">
           <img src={props.img} className="img-fluid" alt="" />
         </div>
         <div className="col-md-4">
           <span className="feedback">{props.feedback}</span>
-          <h3>{props.title}</h3>
+          <h4>{props.title}</h4>
           <p>{props.subtitle}</p>
           <ul>
             <li>

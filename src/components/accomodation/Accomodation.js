@@ -11,7 +11,7 @@ import accomodation5 from "../../assets/images/accomodation-05.jpg";
 const Accomodation = () => {
   return (
     <div className="Accomodation container my-5">
-      <h3>Accomodation</h3>
+      <h2>Accomodation</h2>
       <Room
         title="Standard Double Room"
         subtitle="Start from $70/night"

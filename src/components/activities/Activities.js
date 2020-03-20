@@ -13,7 +13,7 @@ import activities6 from "../../assets/images/activities-06.jpeg";
 const Activities = () => {
   return (
     <div className="Activities container my-5">
-      <h3>Things to do </h3>
+      <h2>Things to do</h2>
 
       <CardDeck>
         <ActivityCard

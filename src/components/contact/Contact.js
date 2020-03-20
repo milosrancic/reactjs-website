@@ -11,7 +11,7 @@ const handleSubmit = event => {
 const Contact = () => {
   return (
     <div className="Contact container my-5">
-      <h3>Contact us</h3>
+      <h2>Contact us</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="fullName" className="float-left ml-2">
