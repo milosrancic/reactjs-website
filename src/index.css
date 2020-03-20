@@ -16,6 +16,11 @@ body {
   /* // border: 10px solid lightslategray; */
 }
 
+/* this is page heading on every page */
+h2 {
+ margin-bottom: 1.5em;
+}
+
 /* // h1 through h6 one css eg { */
 /* // text-align: center; */
 /* / } */
