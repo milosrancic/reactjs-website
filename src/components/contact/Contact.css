@@ -2,23 +2,12 @@
   border-radius: 15px;
 }
 
-
-.newsletter-div .btn-sm {
-  padding: 3px;
-  letter-spacing: 1px;
-  /* border: none; */
-  font-size: 12px;
-}
-
-.text-newsletter {
-  letter-spacing: 1px;
-}
-
-.input-newsletter {
-  border-radius: 5px;
-  outline: none;
-}
-
 textarea {
   resize: none;
+}
+
+.adress-container span {
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: 1px;
 }

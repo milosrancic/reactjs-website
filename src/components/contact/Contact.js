@@ -85,19 +85,14 @@ const Contact = () => {
         <button type="submit" className="btn btn-primary">
           Submit
         </button>
-
-        <div className="float-right newsletter-div my-5">
-          <small className="text-newsletter">
-            Newsletter: <br /> <input type="text" className="input-newsletter" />
-          </small>
-          <button
-            type="button"
-            className="ml-1 mt-0 btn btn-sm btn-outline-dark"
-          >
-            Submit
-          </button>
-        </div>
       </form>
+
+      <div className="adress-container text-center my-5">
+        <p><span>email: </span>contact@gmail.com <br />
+          <span>phone: </span>+1 214-278-0973</p>
+        <p>863  Fancher Drive <br /> Dallas, Texas <br /> USA
+        </p>
+      </div>
     </div>
   );
 };
