@@ -1,5 +1,5 @@
 import React from "react";
-import "./Activities.css";
+import "./Activities.scss";
 import CardDeck from 'react-bootstrap/CardDeck'
 import ActivityCard from "./activityCard/ActivityCard";
 
