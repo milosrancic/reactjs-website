@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+import "./Contact.scss";
 
 // AT THE BOTTOM PUT PLACEHOLDER ADRESS
 
@@ -87,12 +87,17 @@ const Contact = () => {
         </button>
       </form>
 
-      <div className="adress-container text-center my-5">
-        <p><span>email: </span>contact@gmail.com <br />
-          <span>phone: </span>+1 214-278-0973</p>
-        <p>863  Fancher Drive <br /> Dallas, Texas <br /> USA
+      <div className="row adress-container text-center my-5">
+        <div className="col-sm">
+          <p><span>email: </span>contact@gmail.com <br />
+            <span>phone: </span>+1 214-278-0973</p>
+        </div>
+        <div className="col-sm">
+          <p>863  Fancher Drive <br /> Dallas, Texas <br /> USA
         </p>
+        </div>
       </div>
+
     </div>
   );
 };
