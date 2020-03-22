@@ -19,12 +19,9 @@ body {
 /* this is page heading on every page */
 h2 {
  margin-bottom: 1.5em;
+ text-align: center;
 }
 
 h3 {
   text-align: center;
 }
-
-/* // h1 through h6 one css eg { */
-/* // text-align: center; */
-/* / } */
