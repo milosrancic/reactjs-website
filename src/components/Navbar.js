@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Nav from 'react-bootstrap/Nav'
 
-import "../styles/Navbar.css";
+import "../styles/Navbar.scss";
 
 const Navbar = () => {
   return (
