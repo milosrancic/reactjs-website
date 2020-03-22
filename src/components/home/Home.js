@@ -70,8 +70,10 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+
       <div className="container my-4">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error, totam voluptatum, alias iste eius similique praesentium iusto odit ratione facilis accusamus aspernatur impedit modi laudantium sit optio odio fugiat temporibus consectetur. Quam incidunt sequi soluta excepturi itaque ex, dignissimos repellat? Quisquam, rem sapiente! Doloribus delectus dolorem fugiat provident ullam quae aspernatur eligendi cupiditate at ea autem officiis tenetur esse, dolorum, repudiandae minima ducimus eveniet quo itaque. Quam odio magnam, eveniet incidunt tenetur dolores enim rem nostrum fugiat dignissimos hic ex placeat vitae! Nemo nulla earum vitae, rem iste mollitia, magnam itaque a ab repellat minus quos ipsum est, voluptates aperiam!</p>
+
         <div className="testimonials container">
           <h3>Testimonials</h3>
           <Carousel
@@ -93,11 +95,22 @@ const Home = () => {
             </Carousel.Item>
           </Carousel>
         </div>
-        <div className="container social-media text-center">
+
+        <div className="row">
+          <div className="col-sm float-left">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae vero dignissimos tempora libero et non facilis harum iusto commodi veritatis. Sit provident, fuga fugit ut error non molestiae odio deserunt aspernatur dolorem minus totam temporibus ipsum ea quod? Nulla veritatis eos eaque itaque neque animi eius sequi molestiae! Suscipit dolor repellendus inventore incidunt corrupti, excepturi nemo odit! Magnam animi suscipit, cupiditate adipisci dolorum culpa? Autem assumenda non odio animi quaerat corporis sit maxime impedit magni</p>
+          </div>
+          <div className="col-sm float-right">
+            <p> quis, accusantium nesciunt nulla nihil odit consequatur? Similique nihil soluta magni odio necessitatibus doloribus a quos quas, deserunt consectetur eligendi earum blanditiis recusandae incidunt doloremque perferendis vero sed cum numquam est accusantium sunt laborum nisi assumenda? Voluptatum dolorem aspernatur explicabo non cum provident soluta eveniet. Distinctio quam dignissimos aspernatur minima id at voluptatem temporibus nemo nobis debitis molestias hic quia, porro veniam ut sapiente, similique ipsa? Nihil quas minima perspiciatis dolores accusamus eligendi quo minus?</p>
+          </div>
+        </div>
+
+        <div className="container social-media text-center my-5">
           <a href="#top"><i className="fab fa-2x fa-facebook-square"></i></a>
           <a href="#top"><i className="fab fa-2x fa-yelp"></i></a>
           <a href="#top"><i className="far fa-2x fa-envelope"></i></a>
         </div>
+
       </div>
     </>
   );
