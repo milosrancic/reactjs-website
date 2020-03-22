@@ -19,12 +19,10 @@ const Activities = () => {
         <ActivityCard
           img={activities2}
           title="Hiking"
-          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum."
         />
         <ActivityCard
           img={activities1}
           title="Horseback riding"
-          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum."
         />
       </CardDeck>
 
@@ -32,12 +30,10 @@ const Activities = () => {
         <ActivityCard
           img={activities3}
           title="Rafting"
-          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum."
         />
         <ActivityCard
           img={activities4}
           title="Camp Firing"
-          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum."
         />
       </CardDeck>
 
@@ -45,13 +41,11 @@ const Activities = () => {
         <ActivityCard
           img={activities5}
           title="Fishing"
-          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum."
         />
 
         <ActivityCard
           img={activities6}
           title="Mountain biking"
-          text="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum."
         />
       </CardDeck>
     </div>
