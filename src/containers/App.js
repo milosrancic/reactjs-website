@@ -10,7 +10,7 @@ import Activities from "../components/activities/Activities";
 import Contact from "../components/contact/Contact";
 import Bookings from "../components/Bookings";
 import NotFound from "../components/NotFound";
-// import Footer from "../components/Footer";
+import Footer from "../components/footer/Footer";
 
 class App extends React.Component {
   render() {
@@ -25,7 +25,7 @@ class App extends React.Component {
           <Route path="/contact" component={Contact} />
           <Route component={NotFound} />
         </Switch>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }
