@@ -1,12 +1,8 @@
-.author-text {
-  letter-spacing: 1px;
-}
-
 .Footer {
   text-align: center;
   position: absolute;
   width: 100%;
-  height: 1.7rem;
-  bottom: 0;
+  bottom: -50px;
   color: orangered;
+  font-size: 14px;
 }
