@@ -3,14 +3,14 @@ import { Switch, Route } from "react-router-dom";
 
 import "./App.scss";
 
-import Navbar from "../components/navbar/Navbar";
-import Home from "../components/home/Home";
-import Accomodation from "../components/accomodation/Accomodation";
-import Activities from "../components/activities/Activities";
-import Contact from "../components/contact/Contact";
-import Bookings from "../components/Bookings";
-import NotFound from "../components/NotFound";
-import Footer from "../components/footer/Footer";
+import Navbar from "../navbar/Navbar";
+import Home from "../home/Home";
+import Accomodation from "../accomodation/Accomodation";
+import Activities from "../activities/Activities";
+import Contact from "../contact/Contact";
+import Bookings from "../Bookings";
+import NotFound from "../NotFound";
+import Footer from "../footer/Footer";
 
 const App = () => {
   return (
