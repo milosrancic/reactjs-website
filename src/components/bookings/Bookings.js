@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../styles/Bookings.scss";
+import "./Bookings.scss";
 import DateRangePicker from '@wojtekmaj/react-daterange-picker';
 
 class Bookings extends Component {
