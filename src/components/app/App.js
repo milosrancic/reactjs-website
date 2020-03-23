@@ -8,9 +8,9 @@ import Home from "../home/Home";
 import Accomodation from "../accomodation/Accomodation";
 import Activities from "../activities/Activities";
 import Contact from "../contact/Contact";
-import Bookings from "../Bookings";
-import NotFound from "../NotFound";
+import Bookings from "../bookings/Bookings";
 import Footer from "../footer/Footer";
+import NotFound from "../notFound/NotFound";
 
 const App = () => {
   return (
