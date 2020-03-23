@@ -6,7 +6,7 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   return (
-    <Nav className="Navbar justify-content-center" activeKey="/home">
+    <Nav className="Navbar fixed-top justify-content-center" activeKey="/home">
       <Nav.Item>
         <Link to={"/"} className="nav-link">Home</Link>
       </Nav.Item>
