@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import "../styles/Bookings.scss";
 import DateRangePicker from '@wojtekmaj/react-daterange-picker';
 
-class Bookings extends React.Component {
+class Bookings extends Component {
   state = {
     date: [new Date(), new Date()],
   };
