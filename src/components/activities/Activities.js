@@ -26,7 +26,7 @@ const Activities = () => {
         />
       </CardDeck>
 
-      <CardDeck className="mt-5 mb-5">
+      <CardDeck className="my-5">
         <ActivityCard
           img={activities3}
           title="Rafting"

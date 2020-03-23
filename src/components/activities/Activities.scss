@@ -1,3 +1,11 @@
-/* .Activities {
-  margin: 50px auto
-} */
+.Activities {
+  @media (max-width: 576px) {
+    .card-deck {
+      margin: 0 auto !important;
+    }
+    
+    .card {
+      margin: 2em auto;
+    }
+  }
+}
