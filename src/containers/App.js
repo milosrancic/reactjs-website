@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 
 import "./App.scss";
@@ -12,7 +12,7 @@ import Bookings from "../components/Bookings";
 import NotFound from "../components/NotFound";
 import Footer from "../components/footer/Footer";
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <div className="App container-fluid p-0">
