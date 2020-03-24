@@ -12,6 +12,7 @@ class Bookings extends Component {
   render() {
     return (
       <div className="Bookings container text-center my-5">
+        <h2>Book your stay</h2>
         <DateRangePicker
           onChange={this.onChange}
           value={this.state.date}
