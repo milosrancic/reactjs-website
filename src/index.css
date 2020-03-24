@@ -12,14 +12,12 @@ body {
   /* // overflow: hidden; */
 
   background: lightsteelblue;
-
-  /* // border: 10px solid lightslategray; */
 }
 
 /* this is page heading on every page */
 h2 {
- margin-bottom: 1.5em;
- text-align: center;
+  margin: 3em auto 2em;
+  text-align: center;
 }
 
 h3 {
