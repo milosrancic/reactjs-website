@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.scss";
 import Carousel from 'react-bootstrap/Carousel'
 
-// images
 import carousel01 from "../../assets/images/carousel-01.jpg";
 import carousel02 from "../../assets/images/carousel-02.jpg";
 import carousel03 from "../../assets/images/carousel-03.jpg";
