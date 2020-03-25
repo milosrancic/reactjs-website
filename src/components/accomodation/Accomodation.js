@@ -2,11 +2,11 @@ import React from "react";
 import "./Accomodation.scss";
 import Room from "./room/Room"
 
-import accomodation1 from "../../assets/images/accomodation-01.jpg"
-import accomodation2 from "../../assets/images/accomodation-02.jpeg";
-import accomodation3 from "../../assets/images/accomodation-03.jpg";
-import accomodation4 from "../../assets/images/accomodation-04.jpg";
-import accomodation5 from "../../assets/images/accomodation-05.jpg";
+import accomodation01 from "../../assets/images/accomodation-01.jpg"
+import accomodation02 from "../../assets/images/accomodation-02.jpeg";
+import accomodation03 from "../../assets/images/accomodation-03.jpg";
+import accomodation04 from "../../assets/images/accomodation-04.jpg";
+import accomodation05 from "../../assets/images/accomodation-05.jpg";
 
 const Accomodation = () => {
   return (
@@ -22,7 +22,7 @@ const Accomodation = () => {
         gym="Gym access"
         spa="30% off spa"
         feedback="Best for couples"
-        img={accomodation3}
+        img={accomodation03}
       />
       <Room
         title="Standard Double Room"
@@ -34,7 +34,7 @@ const Accomodation = () => {
         gym="Gym access"
         spa="30% off spa"
         feedback="Best for couples"
-        img={accomodation5}
+        img={accomodation05}
       />
       <Room
         title="Standard Suite"
@@ -46,7 +46,7 @@ const Accomodation = () => {
         gym="Gym access"
         spa="50% off spa"
         feedback="Superb"
-        img={accomodation4}
+        img={accomodation04}
       />
       <Room
         title="Standard Suite"
@@ -58,7 +58,7 @@ const Accomodation = () => {
         gym="Gym access"
         spa="50% off spa"
         feedback="Best value for money"
-        img={accomodation2}
+        img={accomodation02}
       />
       <Room
         title="Family Suite"
@@ -70,7 +70,7 @@ const Accomodation = () => {
         gym="Gym access"
         spa="Free spa"
         feedback="Guest favorite"
-        img={accomodation1}
+        img={accomodation01}
       />
       <div className="text-center mt-5 mb-4 facility-icons">
         <ul>
