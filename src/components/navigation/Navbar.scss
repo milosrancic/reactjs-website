@@ -1,5 +1,5 @@
 .Navbar {
-  background: lightsalmon;
+  // background: lightsalmon;
 }
 
 .nav-link {
@@ -8,4 +8,12 @@
   @media (min-width: 500px) {
     padding: 0.7em;
   }
+}
+
+.Navbar:hover .nav-link {
+  opacity: .5;
+}
+
+.Navbar .nav-item .nav-link:hover {
+  opacity: 1;
 }
