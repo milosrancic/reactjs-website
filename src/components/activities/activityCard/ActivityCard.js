@@ -12,7 +12,7 @@ const ActivityCard = props => {
         <Card.Text>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum.
         </Card.Text>
-        <Button className="float-right" variant="outline-secondary" size="sm">Check it out</Button>
+        <Button className="float-right p-2" variant="outline-warning" size="sm">Check it out</Button>
       </Card.Body>
     </Card>
   )
