@@ -5,7 +5,7 @@
 https://milosrancic.github.io/reactjs-website/
 
 ### Screenshots 
-
+<!-- screenshot here -->
 
 ### Technologies
 
