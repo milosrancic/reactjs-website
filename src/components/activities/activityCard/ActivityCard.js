@@ -10,7 +10,7 @@ const ActivityCard = props => {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione nemo impedit accusantium deserunt, dolor dolorum.
+          Lorem ipsum sit dolor lorem sit, amet consectetur adipisicing sit elit. Ratione nem impedit accusantium deserunt, dolor dolorum dolor lorem ipsum.
         </Card.Text>
         <Button className="float-right p-2" variant="outline-warning" size="sm">Check it out</Button>
       </Card.Body>
