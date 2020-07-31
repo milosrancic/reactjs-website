@@ -5,9 +5,10 @@
   "dependencies": {
     "@wojtekmaj/react-daterange-picker": "^2.5.0",
     "bootstrap": "^4.4.1",
-    "handlebars": "^4.7.3",
+    "handlebars": "^4.7.6",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.9.0",
