@@ -4,14 +4,13 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <div className="Footer">
-      <i className="fas fa-code"></i>
-      {" "}by {" "}
+      Made by {" "}
       <a
         href="https://github.com/milosrancic"
         target="_blank"
         rel="noopener noreferrer"
-      >
-        <i className="fab fa-github" />
+      >Mita
+        
       </a>
     </div>
   );
