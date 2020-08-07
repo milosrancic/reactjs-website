@@ -1,11 +1,15 @@
 .Footer {
   text-align: center;
-  width: 100%;
-  bottom: -80px;
   font-size: 14px;
+  background: #D3959B;
+  background: -webkit-linear-gradient(to bottom, #BFE6BA, #D3959B);
+  background: linear-gradient(to bottom, #BFE6BA, #D3959B); 
 
-  background: #1D976C;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  a {
+    color: darkviolet;
 
+    &:hover {
+      color: white;
+    }
+  }
 }
