@@ -1,3 +1,5 @@
+// import useState, change class based component into functional component and then improve react datepicker
+
 import React, { Component } from "react";
 import "./Bookings.scss";
 import DateRangePicker from '@wojtekmaj/react-daterange-picker';
