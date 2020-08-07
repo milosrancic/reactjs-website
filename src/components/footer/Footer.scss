@@ -1,6 +1,8 @@
-// FIX FOOTER ON EVERY PAGE, MAKE IT STICK ON BOTTOM
-
 .Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   font-size: 14px;
   background: #D3959B;
