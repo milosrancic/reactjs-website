@@ -1,26 +1,21 @@
 .Navbar {
-  // background: lightsalmon;
-  background: #565554;
-  background: #7e7c7b;
-  background: #1D976C;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #D3959B;
+  background: -webkit-linear-gradient(to top, #BFE6BA, #D3959B);
+  background: linear-gradient(to top, #BFE6BA, #D3959B);
 
+  .nav-link {
+    padding: 0.3em;
+    color: darkviolet;
 
-}
-
-.nav-link {
-  padding: 0.3em;
-  color: lightgray;
-  @media (min-width: 500px) {
-    padding: 0.7em;
+    @media (min-width: 500px) {
+      padding: 0.7em;
+    }
   }
 }
 
 .Navbar:hover .nav-link {
-  opacity: .5;
-  color: #F24236;
-  color:#F5F749
+  opacity: .3;
+  color: white;
 }
 
 .Navbar .nav-item .nav-link:hover {
