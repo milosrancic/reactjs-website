@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.scss";
 
 // use react bootstrap here same as in activityCard.js !
+// https://react-bootstrap.github.io/components/forms/
 
 const handleSubmit = event => {
   event.preventDefault();
