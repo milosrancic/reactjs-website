@@ -1,15 +1,24 @@
 h1 {
   z-index: 1;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 80px;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
   max-width: 380px;
-  color: red;
-  border: 1px solid orange;
-  background: transparent;
+  color: #f8f5f2;
+  // border: 1px solid orange;
+  // background: transparent;
+
+  background: #3CA55C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 10px;
+  letter-spacing: 2px;
+  font-size: 2em;
+  padding: 5px;
 }
 
 .carousel {
@@ -24,7 +33,7 @@ h1 {
 }
 
 .testimonials {
-  border: 1px solid orange;
+  // border: 1px solid orange;
   max-width: 500px;
   margin: 50px auto;
 
