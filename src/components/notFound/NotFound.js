@@ -1,8 +1,10 @@
 import React from "react";
 
+// fix footer on this one
+
 const NotFound = () => {
   const style = {
-    marginTop: "170px",
+    margin: "200px 0 100% 0",
     letterSpacing: "1px",
     textAlign: "center"
   };
