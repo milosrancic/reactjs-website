@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.scss";
 
-// AT THE BOTTOM PUT PLACEHOLDER ADRESS
+// use react bootstrap here same as in activityCard.js !
 
 const handleSubmit = event => {
   event.preventDefault();
@@ -82,7 +82,7 @@ const Contact = () => {
           />
         </div>
 
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-outline-secondary">
           Submit
         </button>
       </form>
