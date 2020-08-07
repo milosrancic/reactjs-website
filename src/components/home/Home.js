@@ -11,7 +11,6 @@ import carousel05 from "../../assets/images/carousel-05.jpg";
 const Home = () => {
   return (
     <>
-      <h1 className="text-center">Hotel name </h1>
       <Carousel>
         <Carousel.Item>
           <img

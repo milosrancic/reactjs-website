@@ -1,26 +1,3 @@
-h1 {
-  z-index: 1;
-  position: absolute;
-  margin-top: 80px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 380px;
-  color: #f8f5f2;
-  // border: 1px solid orange;
-  // background: transparent;
-
-  background: #3CA55C;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  border-radius: 10px;
-  letter-spacing: 2px;
-  font-size: 2em;
-  padding: 5px;
-}
-
 .carousel {
   z-index: 0;
 }
@@ -49,5 +26,6 @@ background: linear-gradient(to top, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Fir
 .social-media {
   i {
     margin: 0 15px;
+    color: rgb(145, 128, 99);
   }
 }
