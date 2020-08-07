@@ -10,12 +10,14 @@
 }
 
 .testimonials {
-  // border: 1px solid orange;
+  border: 1px solid #BFE6BA;
+  border-radius: 10px;
   max-width: 500px;
   margin: 50px auto;
+  padding: 10px;
 
   .carousel-item{
-    padding: 20px 0 50px;
+    padding: 20px 0 40px;
 
     span {
       font-weight: bold;
@@ -26,6 +28,10 @@
 .social-media {
   i {
     margin: 0 15px;
-    color: rgb(145, 128, 99);
+    color: #D3959B;
+
+    &:hover {
+      color: #BFE6BA;
+    }
   }
 }
