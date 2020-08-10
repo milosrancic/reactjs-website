@@ -14,23 +14,23 @@ const Contact = () => {
       <h2>Contact us</h2>
       <Form onSubmit={handleSubmit}>
         <Form.Group>
-          <Form.Label>Name*</Form.Label>
-          <Form.Control type="text" placeholder="Your name" required />
+          <Form.Label>Name *</Form.Label>
+          <Form.Control type="text" placeholder="John" required />
         </Form.Group>
 
         <Form.Group controlId="formBasicEmail">  
-          <Form.Label>Email*</Form.Label>
-          <Form.Control type="email" placeholder="Your email" required />
+          <Form.Label>Email *</Form.Label>
+          <Form.Control type="email" placeholder="John@john.com" required />
         </Form.Group>
 
         <Form.Group>  
           <Form.Label>Subject</Form.Label>
-          <Form.Control type="text" placeholder="Your subject" />
+          <Form.Control type="text" placeholder="Room availability" />
         </Form.Group>
 
         <Form.Group >
-          <Form.Label>Message*</Form.Label>
-          <Form.Control as="textarea" rows="4" placeholder="Your message here..." />
+          <Form.Label>Message *</Form.Label>
+          <Form.Control as="textarea" rows="4" placeholder="Hey, how are ..." />
          </Form.Group>
 
           <Button variant="outline-secondary" type="submit">
