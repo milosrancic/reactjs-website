@@ -1,81 +1,42 @@
 import React from "react";
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 import "./Contact.scss";
-
-// use react bootstrap here same as in activityCard.js !
-// https://react-bootstrap.github.io/components/forms/
 
 const handleSubmit = event => {
   event.preventDefault();
-  alert("Thank you for reaching out to us. We will get back to you shortly.");
+  alert("Thank you for reaching out to us. We will get back to you shortly. :) ");
 };
 
 const Contact = () => {
   return (
     <div className="Contact container my-5">
       <h2>Contact us</h2>
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label htmlFor="fullName" className="float-left ml-2">
-            Name*
-          </label>
-          <input
-            type="text"
-            className="form-control p-4 require"
-            id="fullName"
-            aria-describedby="fullName"
-            placeholder="Your Name"
-            required
-          />
-        </div>
-        <div className="form-group">
-          <div className="row">
-            <div className="col">
-              <label htmlFor="email" className="float-left ml-2">
-                Email*
-              </label>
-              <input
-                type="email"
-                className="form-control p-4"
-                id="email"
-                placeholder="Your Email"
-                required
-              />
-            </div>
-          </div>
-        </div>
+      <Form onSubmit={handleSubmit}>
+        <Form.Group>
+          <Form.Label>Name*</Form.Label>
+          <Form.Control type="text" placeholder="Your name" required />
+        </Form.Group>
 
-        <div className="form-group">
-          <label htmlFor="subject" className="float-left ml-2">
-            Subject
-          </label>
-          <input
-            type="text"
-            className="form-control p-4"
-            id="subject"
-            placeholder="Add subject"
-          />
-        </div>
+        <Form.Group controlId="formBasicEmail">  
+          <Form.Label>Email*</Form.Label>
+          <Form.Control type="email" placeholder="Your email" required />
+        </Form.Group>
 
-        <div className="form-group">
-          <label
-            htmlFor="exampleFormControlTextarea1"
-            className="float-left ml-2"
-          >
-            Message*
-          </label>
-          <textarea
-            className="form-control p-3"
-            id="exampleFormControlTextarea1"
-            rows="4"
-            placeholder="Your message here..."
-            required
-          />
-        </div>
+        <Form.Group>  
+          <Form.Label>Subject</Form.Label>
+          <Form.Control type="text" placeholder="Your subject" />
+        </Form.Group>
 
-        <button type="submit" className="btn btn-outline-secondary">
-          Submit
-        </button>
-      </form>
+        <Form.Group >
+          <Form.Label>Message*</Form.Label>
+          <Form.Control as="textarea" rows="4" placeholder="Your message here..." />
+         </Form.Group>
+
+          <Button variant="outline-secondary" type="submit">
+            Submit
+          </Button>
+      </Form>
 
       <div className="row adress-container text-center my-5">
         <div className="col-sm">
