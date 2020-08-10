@@ -41,17 +41,6 @@ const Contact = () => {
                 required
               />
             </div>
-            <div className="col">
-              <label htmlFor="phone" className="float-left ml-2">
-                Phone
-              </label>
-              <input
-                type="text"
-                className="form-control p-4"
-                id="number"
-                placeholder="Your Phone Number"
-              />
-            </div>
           </div>
         </div>
 
