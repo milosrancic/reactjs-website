@@ -4,17 +4,24 @@
   background: linear-gradient(to top, #BFE6BA, #D3959B);
 
   .nav-link {
-    padding: 0.3em;
+    padding: 0.2em;
+    font-size: 14px;
     color: darkviolet;
 
     @media (min-width: 500px) {
       padding: 0.7em;
+      font-size: unset;
     }
+
+    // this | after first and before last and in between every navlink
+    // &:after {
+      // content: "|";
+    // }
   }
 }
 
 .Navbar:hover .nav-link {
-  opacity: .3;
+  opacity: .5;
   color: white;
 }
 
