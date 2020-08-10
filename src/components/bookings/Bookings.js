@@ -1,27 +1,21 @@
-// import useState, change class based component into functional component and then improve react datepicker
-
-import React, { Component } from "react";
+import React, { useState } from "react";
 import "./Bookings.scss";
 import DateRangePicker from '@wojtekmaj/react-daterange-picker';
 
-class Bookings extends Component {
-  state = {
-    date: [new Date(), new Date()],
-  };
+const Bookings = () => {
 
-  onChange = date => this.setState({ date })
+  const [value, onChange] = useState([new Date(), new Date()]);
 
-  render() {
     return (
       <div className="Bookings container  my-5">
         <h2>Book your stay</h2>
 
         <div className="text-center my-5">
           <DateRangePicker
-            onChange={this.onChange}
-            value={this.state.date}
+            onChange={onChange}
+            value={value}
             format="dd-MM-y"
-
+            closeCalendar={false}
             autoFocus={true}
           />
         </div>
@@ -34,6 +28,5 @@ class Bookings extends Component {
       </div>
     );
   }
-}
 
 export default Bookings;
