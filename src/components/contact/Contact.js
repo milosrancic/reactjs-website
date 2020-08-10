@@ -45,10 +45,9 @@ const Contact = () => {
         </div>
         <div className="col-sm">
           <p>863  Fancher Drive <br /> Dallas, Texas <br /> USA
-        </p>
+          </p>
         </div>
       </div>
-
     </div>
   );
 };
