@@ -7,6 +7,11 @@
     resize: none;
   }
     
+  ::placeholder {
+    font-style: italic;
+    font-size: 14px;
+  }
+
   .adress-container span {
     font-style: italic;
     font-size: 14px;
