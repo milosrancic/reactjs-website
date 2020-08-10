@@ -31,7 +31,7 @@ const Home = () => {
           />
           <Carousel.Caption>
             <h4>Breathe in, breathe out</h4>
-            <p>Right next to hotel.</p>
+            <p>Right next to the hotel.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
