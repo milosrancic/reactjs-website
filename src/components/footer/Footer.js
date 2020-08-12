@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="Footer">
       Made by {" "}
       <a
-        href="https://github.com/milosrancic"
+        href="https://www.mita.dev/"
         target="_blank"
         rel="noopener noreferrer"
       >Mita
