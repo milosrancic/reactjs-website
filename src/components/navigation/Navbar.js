@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Nav from 'react-bootstrap/Nav'
 
 import "./Navbar.scss";
@@ -8,27 +8,27 @@ const Navbar = () => {
   return (
     <Nav className="Navbar fixed-top justify-content-center" activeKey="/home">
       <Nav.Item>
-        <Link to={"/"} className="nav-link">Home</Link>
+        <NavLink exact to={"/"} className="nav-link" activeClassName="active-link">Home</NavLink>
       </Nav.Item>
       <Nav.Item>
-        <Link to={"/accomodation"} className="nav-link">
+        <NavLink to={"/accomodation"} className="nav-link" activeClassName="active-link">
           Accomodation
-          </Link>
+          </NavLink>
       </Nav.Item>
       <Nav.Item>
-        <Link to={"/activities"} className="nav-link">
+        <NavLink to={"/activities"} className="nav-link" activeClassName="active-link">
           Activities
-          </Link>
+          </NavLink>
       </Nav.Item>
       <Nav.Item>
-        <Link to={"/bookings"} className="nav-link">
+        <NavLink to={"/bookings"} className="nav-link" activeClassName="active-link">
           Bookings
-          </Link>
+          </NavLink>
       </Nav.Item>
       <Nav.Item>
-        <Link to={"/contact"} className="nav-link">
+        <NavLink to={"/contact"} className="nav-link" activeClassName="active-link">
           Contact
-          </Link>
+          </NavLink>
       </Nav.Item>
     </Nav>
   );
