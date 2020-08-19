@@ -12,13 +12,12 @@
       padding: 0.7em;
       font-size: unset;
     }
+  }
 
-    // this | after first and before last and in between every navlink
-    // &:after {
-      // content: "|";
-    // }
-
-    // active page navlink will have different color
+  .active-link {
+    background: #D3959B;
+    background: -webkit-linear-gradient(to bottom, #BFE6BA, #D3959B);
+    background: linear-gradient(to bottom, #BFE6BA, #D3959B);
   }
 }
 
