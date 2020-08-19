@@ -1,37 +1,40 @@
-.carousel {
-  z-index: 0;
-}
+.Home {
 
-.carousel-item img {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  background-size: cover;
-}
-
-.testimonials {
-  border: 1px solid #BFE6BA;
-  border-radius: 10px;
-  max-width: 500px;
-  margin: 50px auto;
-  padding: 10px;
-
-  .carousel-item{
-    padding: 20px 0 40px;
-
-    span {
-      font-weight: bold;
-    }
+  .carousel {
+    z-index: 0;
+  
+  .carousel-item img {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
   }
 }
 
-.social-media {
-  i {
-    margin: 0 15px;
-    color: #D3959B;
+  .testimonials {
+    border: 1px solid #BFE6BA;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 10px;
 
-    &:hover {
-      color: #BFE6BA;
+    .carousel-item{
+      padding: 20px 0 40px;
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .social-media {
+    i {
+      margin: 0 15px;
+      color: #D3959B;
+
+      &:hover {
+        color: #BFE6BA;
+      }
     }
   }
 }
