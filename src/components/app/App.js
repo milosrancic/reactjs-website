@@ -14,14 +14,14 @@ const App = () => {
   return (
     <div className="App container-fluid p-0">
       <Navbar />
-      <HashRouter>
+      <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/accomodation" component={Accomodation} />
         <Route path="/activities" component={Activities} />
         <Route path="/bookings" component={Bookings} />
         <Route path="/contact" component={Contact} />
         <Route component={NotFound} />
-      </HashRouter>
+      </Switch>
       <Footer />
     </div>
   )
