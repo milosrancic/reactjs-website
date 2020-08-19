@@ -1,16 +1,9 @@
 import React from "react";
-
-// fix footer on this one
+import "./NotFounds.scss";
 
 const NotFound = () => {
-  const style = {
-    margin: "200px 0 100% 0",
-    letterSpacing: "1px",
-    textAlign: "center"
-  };
-
   return (
-    <h4 style={style}>
+    <h4 className="not-found">
       Sorry, but the page you have requested was not found.
     </h4>
   )
