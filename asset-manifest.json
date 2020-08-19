@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/reactjs-website/static/css/main.1849bfc4.chunk.css",
+    "main.js": "/reactjs-website/static/js/main.90af45f0.chunk.js",
+    "main.js.map": "/reactjs-website/static/js/main.90af45f0.chunk.js.map",
+    "runtime-main.js": "/reactjs-website/static/js/runtime-main.81fd43ae.js",
+    "runtime-main.js.map": "/reactjs-website/static/js/runtime-main.81fd43ae.js.map",
+    "static/css/2.6508e315.chunk.css": "/reactjs-website/static/css/2.6508e315.chunk.css",
+    "static/js/2.348a7f64.chunk.js": "/reactjs-website/static/js/2.348a7f64.chunk.js",
+    "static/js/2.348a7f64.chunk.js.map": "/reactjs-website/static/js/2.348a7f64.chunk.js.map",
+    "index.html": "/reactjs-website/index.html",
+    "precache-manifest.567d23d7c2722eae6caffba800c7ec8f.js": "/reactjs-website/precache-manifest.567d23d7c2722eae6caffba800c7ec8f.js",
+    "service-worker.js": "/reactjs-website/service-worker.js",
+    "static/css/2.6508e315.chunk.css.map": "/reactjs-website/static/css/2.6508e315.chunk.css.map",
+    "static/css/main.1849bfc4.chunk.css.map": "/reactjs-website/static/css/main.1849bfc4.chunk.css.map",
+    "static/js/2.348a7f64.chunk.js.LICENSE.txt": "/reactjs-website/static/js/2.348a7f64.chunk.js.LICENSE.txt",
+    "static/media/accomodation-01.jpg": "/reactjs-website/static/media/accomodation-01.4a58c7cf.jpg",
+    "static/media/accomodation-02.jpeg": "/reactjs-website/static/media/accomodation-02.99fbe790.jpeg",
+    "static/media/accomodation-03.jpg": "/reactjs-website/static/media/accomodation-03.4e178dc3.jpg",
+    "static/media/accomodation-04.jpg": "/reactjs-website/static/media/accomodation-04.56ab448d.jpg",
+    "static/media/accomodation-05.jpg": "/reactjs-website/static/media/accomodation-05.185da948.jpg",
+    "static/media/activities-01.jpeg": "/reactjs-website/static/media/activities-01.8193f188.jpeg",
+    "static/media/activities-02.jpeg": "/reactjs-website/static/media/activities-02.10ddf3cd.jpeg",
+    "static/media/activities-03.jpeg": "/reactjs-website/static/media/activities-03.2048898f.jpeg",
+    "static/media/activities-04.jpeg": "/reactjs-website/static/media/activities-04.55dfc5a0.jpeg",
+    "static/media/activities-05.jpeg": "/reactjs-website/static/media/activities-05.07bf0d79.jpeg",
+    "static/media/activities-06.jpeg": "/reactjs-website/static/media/activities-06.80ad05eb.jpeg",
+    "static/media/carousel-01.jpg": "/reactjs-website/static/media/carousel-01.b10ebc3b.jpg",
+    "static/media/carousel-02.jpg": "/reactjs-website/static/media/carousel-02.b1ac2695.jpg",
+    "static/media/carousel-03.jpg": "/reactjs-website/static/media/carousel-03.c28da05f.jpg",
+    "static/media/carousel-04.jpg": "/reactjs-website/static/media/carousel-04.c1650966.jpg",
+    "static/media/carousel-05.jpg": "/reactjs-website/static/media/carousel-05.a8be3cbe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81fd43ae.js",
+    "static/css/2.6508e315.chunk.css",
+    "static/js/2.348a7f64.chunk.js",
+    "static/css/main.1849bfc4.chunk.css",
+    "static/js/main.90af45f0.chunk.js"
+  ]
+}
