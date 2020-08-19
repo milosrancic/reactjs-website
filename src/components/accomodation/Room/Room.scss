@@ -1,19 +1,13 @@
 .Room {
   .row {
     align-items: center;
-
-    // delete this at the end
-    // border: 1px solid orchid;
   }
 
-  // delete this at the end
   .col-md-8>img {
     border-radius: 0.25rem;
-  //   border: 1px solid red;
   }
 
   .col-md-4 {
-    // border: 1px solid orange;
     padding: 50px 30px;
 
     // fix this for smaller screens
@@ -22,6 +16,12 @@
       top: 10px;
       font-size: 14px;
       font-style: italic;
+      text-decoration: underline;
+      text-decoration-color:#D3959B;
+    }
+
+    .title {
+      text-align: initial;
     }
 
     ul {
