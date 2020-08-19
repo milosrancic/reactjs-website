@@ -10,7 +10,7 @@ import carousel05 from "../../assets/images/carousel-05.jpg";
 
 const Home = () => {
   return (
-    <>
+    <div className="Home">
       <Carousel>
         <Carousel.Item>
           <img
@@ -85,7 +85,7 @@ const Home = () => {
             </Carousel.Item>
             <Carousel.Item>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In debitis placeat aliquam repellat deleniti, odit culpa voluptatibus sint sunt, iusto, fuga nulla tenetur atque ratione. Obcaecati nulla velit accusamus, iste id adipisci blanditiis.</p>
-              <span>Awesome man</span>
+              <span>Awesome woman</span>
             </Carousel.Item>
             <Carousel.Item>
               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque quis perferendis architecto id possimus pariatur, voluptatum dignissimos exercitationem minus, optio eveniet officiis laudantium magnam saepe ad.</p>
@@ -110,7 +110,7 @@ const Home = () => {
         </div>
 
       </div>
-    </>
+    </div>
   );
 };
 
