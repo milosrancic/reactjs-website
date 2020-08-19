@@ -5,6 +5,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
 h2 {
   margin: 3em auto 2em;
   text-align: center;
