@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import Navbar from "../navigation/Navbar";
 import Home from "../home/Home";
@@ -14,14 +14,14 @@ const App = () => {
   return (
     <div className="App container-fluid p-0">
       <Navbar />
-      <Switch>
+      <HashRouter>
         <Route exact path="/" component={Home} />
         <Route path="/accomodation" component={Accomodation} />
         <Route path="/activities" component={Activities} />
         <Route path="/bookings" component={Bookings} />
         <Route path="/contact" component={Contact} />
         <Route component={NotFound} />
-      </Switch>
+      </HashRouter>
       <Footer />
     </div>
   )
