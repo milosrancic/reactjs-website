@@ -2,7 +2,7 @@
   "name": "reactjs-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://milosrancic.github.io/reactjs-website",
+  "homepage": "https://milosrancic.github.io/reactjs-website/",
   "dependencies": {
     "@wojtekmaj/react-daterange-picker": "^2.5.0",
     "bootstrap": "^4.4.1",
