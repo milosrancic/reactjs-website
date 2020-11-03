@@ -3,7 +3,7 @@
     align-items: center;
   }
 
-  .col-md-8>img {
+  .col-md-8 > img {
     border-radius: 0.25rem;
   }
 
@@ -16,7 +16,7 @@
       font-size: 14px;
       font-style: italic;
       text-decoration: underline;
-      text-decoration-color:#D3959B;
+      text-decoration-color: #d3959b;
     }
 
     .title {
@@ -27,9 +27,13 @@
       list-style-type: none;
       padding-left: 20px;
 
-      li>i {
+      li > i {
         padding-right: 7px;
       }
+    }
+
+    .room-btn {
+      letter-spacing: 1px;
     }
   }
 }

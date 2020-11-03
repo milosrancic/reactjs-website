@@ -1,7 +1,8 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 import "./Room.scss";
 
-const Room = props => {
+const Room = (props) => {
   return (
     <div className="Room">
       <div className="row mt-5">
@@ -32,6 +33,9 @@ const Room = props => {
               <i className="fas fa-spa"></i> {props.spa}
             </li>
           </ul>
+          <Button variant="danger" size="sm" className="room-btn ml-1">
+            Book this {props.btnTitle}!
+          </Button>
         </div>
       </div>
     </div>
