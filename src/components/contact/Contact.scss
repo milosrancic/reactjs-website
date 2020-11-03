@@ -2,11 +2,11 @@
   .form-control {
     border-radius: 15px;
   }
-  
+
   textarea {
     resize: none;
   }
-    
+
   ::placeholder {
     font-style: italic;
     font-size: 14px;
@@ -15,6 +15,10 @@
   .adress-container span {
     font-style: italic;
     font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .contact-btn {
     letter-spacing: 1px;
   }
 }
