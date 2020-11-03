@@ -1,8 +1,8 @@
 import React from "react";
 import "./Accomodation.scss";
-import Room from "./room/Room"
+import Room from "./room/Room";
 
-import accomodation01 from "../../assets/images/accomodation-01.jpg"
+import accomodation01 from "../../assets/images/accomodation-01.jpg";
 import accomodation02 from "../../assets/images/accomodation-02.jpeg";
 import accomodation03 from "../../assets/images/accomodation-03.jpg";
 import accomodation04 from "../../assets/images/accomodation-04.jpg";
@@ -15,6 +15,7 @@ const Accomodation = () => {
       <Room
         title="Standard Double Room"
         subtitle="Start from $70/night"
+        btnTitle="room"
         beds="1 Queen Bed"
         people="2 People"
         bar="Mini Bar"
@@ -27,6 +28,7 @@ const Accomodation = () => {
       <Room
         title="Standard Double Room"
         subtitle="Start from $70/night"
+        btnTitle="room"
         beds="1 Queen Bed"
         people="2 People"
         bar="Mini Bar"
@@ -39,6 +41,7 @@ const Accomodation = () => {
       <Room
         title="Standard Suite"
         subtitle="Start from $120/night"
+        btnTitle="suite"
         beds="1 Queen Bed & 1 Single Bed"
         people="3 People"
         bar="Mini Bar"
@@ -51,6 +54,7 @@ const Accomodation = () => {
       <Room
         title="Standard Suite"
         subtitle="Start from $120/night"
+        btnTitle="suite"
         beds="1 Queen Bed & 2 Single Beds"
         people="4 People"
         bar="Mini Bar"
@@ -63,6 +67,7 @@ const Accomodation = () => {
       <Room
         title="Family Suite"
         subtitle="Start from $220/night"
+        btnTitle="suite"
         beds="2 Queen Beds & 2 Single Beds"
         people="6 People"
         bar="Mini Bar"
