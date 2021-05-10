@@ -7,7 +7,7 @@
     "@wojtekmaj/react-daterange-picker": "^2.5.0",
     "bootstrap": "^4.4.1",
     "handlebars": "^4.7.6",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "node-sass": "^4.14.1",
     "react": "^16.9.0",
